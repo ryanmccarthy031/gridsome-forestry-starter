@@ -16,7 +16,7 @@
                     v-for="page in $static.data.edges" 
                     :key="page.node.id"
                     :to="page.node.path">
-                    {{ item.node.title }}
+                    {{ page.node.title }}
                 </g-link>
             </nav>
         </div>
@@ -46,7 +46,7 @@ export default {
         }
     },
     mounted () {
-        console.log("QUERY", this.$page)
+        console.log("QUERY", this.$static)
     },
 }
 </script>
