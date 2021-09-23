@@ -14,7 +14,7 @@
                 <g-link 
                     class="nav__link" 
                     :to="item.node.path"
-                    v-for="item in journals" 
+                    v-for="item in pages" 
                     :key="item.node.id">
                     {{ item.node.title }}
                 </g-link>
