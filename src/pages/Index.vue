@@ -26,6 +26,10 @@ import Hero from "@/components/Hero"
 export default {
   components: {
     Hero,
-  }
+  },
+  mounted () {
+    console.log("GRAPH QL CONTENT")
+    console.log($page)
+  },
 }
 </script>
