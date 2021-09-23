@@ -5,12 +5,12 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: page
+  path: pages
   label: Page
   create: documents
   match: "**/*.md"
   templates:
-  - page
+  - MainPage
 - type: document
   path: data/theme.json
   label: Theme config

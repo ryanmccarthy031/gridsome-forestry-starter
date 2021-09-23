@@ -1,5 +1,5 @@
 ---
-label: Page
+label: Pages
 hide_body: false
 fields:
 - type: text
@@ -24,5 +24,5 @@ fields:
     export_format: YYYY-MM-DD
   default: now
 pages:
-- page/macos-development-environment.md
-- page/request.md
+- pages/requests.md
+- pages/projects.md
