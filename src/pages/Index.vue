@@ -7,7 +7,7 @@
 </template>
 
 <page-query>
-query Pages {
+query MainPages {
   data: allMainPage {
     edges {
       node {

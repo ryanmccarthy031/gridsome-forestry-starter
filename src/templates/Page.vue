@@ -29,7 +29,7 @@
 </template>
 
 <page-query>
-query Page ($path: String!) {
+query MainPage ($path: String!) {
   data: MainPage (path: $path) {
     title
     author
