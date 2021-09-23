@@ -1,25 +1,10 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
-    <Header :pages="$page.data.edges" />
+    <Header />
     <slot/>
     <Footer />
   </div>
 </template>
-
-<page-query>
-query MainPages {
-  data: allMainPage {
-    edges {
-      node {
-        id
-        path
-        title
-      }
-    }
-  }
-}
-</page-query>
-
 <script>
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"

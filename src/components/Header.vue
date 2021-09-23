@@ -11,11 +11,11 @@
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link 
+                <g-link
                     class="nav__link" 
-                    :to="item.node.path"
-                    v-for="item in pages" 
-                    :key="item.node.id">
+                    v-for="page in $page.data.edges" 
+                    :key="page.node.id"
+                    :to="page.node.path">
                     {{ item.node.title }}
                 </g-link>
             </nav>
@@ -23,9 +23,22 @@
     </header>
 </template>
 
+<page-query>
+query MainPages {
+  data: allMainPage {
+    edges {
+      node {
+        id
+        path
+        title
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 export default {
-    props: ['pages'],
     data() {
         return {
             logo: require("../../static/logo.png"),
