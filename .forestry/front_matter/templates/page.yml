@@ -25,3 +25,4 @@ fields:
   default: now
 pages:
 - page/macos-development-environment.md
+- page/request.md
