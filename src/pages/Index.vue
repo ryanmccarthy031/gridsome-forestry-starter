@@ -27,9 +27,5 @@ export default {
   components: {
     Hero,
   },
-  mounted () {
-    console.log("GRAPH QL CONTENT")
-    console.log(this.$page)
-  },
 }
 </script>

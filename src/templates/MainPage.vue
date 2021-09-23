@@ -47,10 +47,6 @@ export default {
   components: {
     PageContent
   },
-  mounted () {
-    console.log("GRAPH QL CONTENT")
-    console.log(this.$page)
-  },
   metaInfo () {
     return {
       title: this.$page.post.title
