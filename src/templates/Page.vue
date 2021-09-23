@@ -21,7 +21,7 @@
           </div>          
         </div>
 
-        <JournalContent :content="$page.data.content" />
+        <PageContent :content="$page.data.content" />
 
       </div>
     </div>
@@ -41,11 +41,11 @@ query Page ($path: String!) {
 </page-query>
 
 <script>
-import JournalContent from "@/components/JournalContent"
+import PageContent from "@/components/PageContent"
 
 export default {
   components: {
-    JournalContent
+    PageContent
   },
   metaInfo () {
     return {
