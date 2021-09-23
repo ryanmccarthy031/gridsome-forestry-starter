@@ -11,7 +11,6 @@ query Pages {
   data: allPage {
     edges {
       node {
-        id
         path
         title
       }

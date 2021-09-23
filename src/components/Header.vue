@@ -15,7 +15,7 @@
                     class="nav__link" 
                     :to="item.node.path"
                     v-for="item in pages" 
-                    :key="item.node.id">
+                    :key="item.node.path">
                     {{ item.node.title }}
                 </g-link>
             </nav>
