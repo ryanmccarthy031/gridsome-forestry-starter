@@ -13,7 +13,7 @@
             <nav class="nav right">
                 <g-link
                     class="nav__link" 
-                    v-for="page in $page.data.edges" 
+                    v-for="page in $static.data.edges" 
                     :key="page.node.id"
                     :to="page.node.path">
                     {{ item.node.title }}
@@ -23,8 +23,8 @@
     </header>
 </template>
 
-<page-query>
-query MainPages {
+<static-query>
+query {
   data: allMainPage {
     edges {
       node {
@@ -35,7 +35,7 @@ query MainPages {
     }
   }
 }
-</page-query>
+</static-query>
 
 <script>
 export default {
@@ -44,7 +44,10 @@ export default {
             logo: require("../../static/logo.png"),
             settings: require("../../data/theme.json")
         }
-    }
+    },
+    mounted () {
+        console.log("QUERY", this.$page)
+    },
 }
 </script>
 
