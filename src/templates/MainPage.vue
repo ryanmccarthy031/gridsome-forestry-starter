@@ -30,7 +30,7 @@
 
 <page-query>
 query MainPage ($path: String!) {
-  data: MainPage (path: $path) {
+  data: mainPage (path: $path) {
     title
     author
     date (format: "D. MMMM YYYY")
