@@ -11,7 +11,7 @@
 
     <g-link 
       :to="item.node.path"
-      v-for="item in $page.posts.edges" 
+      v-for="item in $page.data.edges" 
       :key="item.node.id"
       class="journal-post"
     >
@@ -25,8 +25,8 @@
 </template>
 
 <page-query>
-query Journal {
-	posts: allJournalPost {
+query Pages {
+	data: page {
     edges {
       node {
         id

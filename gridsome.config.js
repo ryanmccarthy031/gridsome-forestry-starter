@@ -2,17 +2,17 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Food Not Bombs: Raleigh",
+  siteUrl: `https://fnbraleigh.org`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s - FNB",
   siteDescription: "Creative technologist",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
       options: {
         path: "page/**/*.md",
-        typeName: "JournalPost",
+        typeName: "Page",
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",

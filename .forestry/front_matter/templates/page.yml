@@ -12,7 +12,7 @@ fields:
   label: Excerpt
   description: Short snippet that will show outside of the actual post
   config:
-    required: true
+    required: false
 - type: datetime
   name: date
   label: Date
