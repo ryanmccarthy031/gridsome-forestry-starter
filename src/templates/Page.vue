@@ -29,8 +29,8 @@
 </template>
 
 <page-query>
-query MainPage ($id: ID!) {
-  data: MainPage (id: $id) {
+query MainPage ($path: String!) {
+  data: MainPage (path: $path) {
     title
     author
     date (format: "D. MMMM YYYY")
