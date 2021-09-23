@@ -29,7 +29,7 @@ export default {
   },
   mounted () {
     console.log("GRAPH QL CONTENT")
-    console.log($page)
+    console.log(this.$page)
   },
 }
 </script>
