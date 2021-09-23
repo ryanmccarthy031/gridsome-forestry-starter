@@ -1,24 +1,10 @@
 <template>
-  <Layout :pages="$page.data.edges">
+  <Layout>
     <div class="container">
       <Hero />
     </div>
   </Layout>
 </template>
-
-<page-query>
-query MainPages {
-  data: allMainPage {
-    edges {
-      node {
-        id
-        path
-        title
-      }
-    }
-  }
-}
-</page-query>
 
 <script>
 import Hero from "@/components/Hero"
