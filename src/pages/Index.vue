@@ -8,7 +8,7 @@
 
 <page-query>
 query Pages {
-  data: page {
+  data: allPage {
     edges {
       node {
         id
