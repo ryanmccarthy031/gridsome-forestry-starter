@@ -1,6 +1,6 @@
 ---
 date: 2019-05-18
-title: macOS development environment
+title: Donate
 author: Nichlas W. Andersen
 excerpt: Get up and running with a fresh macOS Catalina install
 

@@ -1,18 +1,23 @@
 <template>
-    <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
+    <header class="header" :class="{sticky: $route.path === '/'}">
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
-                        src="../../static/logo.svg"
+                        src="../../static/logo.png"
                         :alt="settings.site_name" 
                         class="logo"
                     />
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" to="/journal">Journal</g-link>
-                <g-link class="nav__link" to="/contact">Say Hi!</g-link>
+                <g-link 
+                    class="nav__link" 
+                    :to="item.node.path"
+                    v-for="item in journals" 
+                    :key="item.node.id">
+                    {{ item.node.title }}
+                </g-link>
             </nav>
         </div>
     </header>
@@ -20,12 +25,13 @@
 
 <script>
 export default {
-  data() {
-    return {
-        logo: require("../../static/logo.svg"),
-        settings: require("../../data/theme.json")
+    props: ['pages'],
+    data() {
+        return {
+            logo: require("../../static/logo.png"),
+            settings: require("../../data/theme.json")
+        }
     }
-  }
 }
 </script>
 

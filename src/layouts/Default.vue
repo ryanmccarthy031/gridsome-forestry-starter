@@ -1,6 +1,6 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
-    <Header />
+    <Header :pages="pages" />
     <slot/>
     <Footer />
   </div>
@@ -11,6 +11,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 
 export default {
+  props: ['pages'],
   components: {
     Header,
     Footer

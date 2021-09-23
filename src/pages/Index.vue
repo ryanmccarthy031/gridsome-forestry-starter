@@ -1,28 +1,15 @@
 <template>
-  <Layout>
+  <Layout :pages="$page.journals.edges">
     <div class="container">
       <Hero />
-      <ProjectsGrid :projects="$page.projects.edges" />
+      <LatestJournals :journals="$page.journals.edges" />
     </div>
-    <LatestJournals :journals="$page.journals.edges" />
   </Layout>
 </template>
 
 <page-query>
 query Posts {
-	projects: allProjectPost {
-    edges {
-      node {
-        id
-        date (format: "YYYY")
-        title
-        categories
-        thumbnail (quality: 90)
-        path
-      }
-    }
-  },
-  journals: allJournalPost (perPage: 4) {
+  journals: allJournalPost {
     edges {
       node {
         id
@@ -36,13 +23,11 @@ query Posts {
 
 <script>
 import Hero from "@/components/Hero"
-import ProjectsGrid from "@/components/ProjectsGrid"
 import LatestJournals from "@/components/LatestJournals"
 
 export default {
   components: {
     Hero,
-    ProjectsGrid,
     LatestJournals
   }
 }
