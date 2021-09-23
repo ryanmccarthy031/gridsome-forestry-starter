@@ -8,9 +8,10 @@
 
 <page-query>
 query Pages {
-  data: allPage {
+  data: allMainPage {
     edges {
       node {
+        id
         path
         title
       }

@@ -11,8 +11,8 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "page/**/*.md",
-        typeName: "Page",
+        path: "mainPages/**/*.md",
+        typeName: "MainPage",
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",
