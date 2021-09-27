@@ -15,6 +15,7 @@ fields:
       file: pages/about.md
       path: 
     required: true
+    options: []
 - type: text
   name: title
   label: Title
