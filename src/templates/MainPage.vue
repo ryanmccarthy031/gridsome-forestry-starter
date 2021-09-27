@@ -15,12 +15,9 @@
 </template>
 
 <page-query>
-query MainPage ($path: String!) {
-  data: mainPage (path: $path) {
+query MainPage ($path: String!, $locale: String = "en") {
+  data: mainPage (path: $path, lang:$locale) {
     title
-    author
-    date (format: "D. MMMM YYYY")
-    timeToRead
     content
   }
 }

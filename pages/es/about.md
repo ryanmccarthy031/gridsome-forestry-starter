@@ -1,9 +1,8 @@
 ---
 date: 2019-05-17
 title: SPANISH About
-author: Nichlas W. Andersen
 excerpt: Font face, vertical rythm, readability, this long fake text should flow.
-
+language: Spanish
 ---
 
 ![](/uploads/markus-spiske-516263-unsplash.jpg)

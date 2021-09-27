@@ -1,9 +1,8 @@
 ---
 date: 2019-05-18
 title: SPANISH Donate
-author: Nichlas W. Andersen
 excerpt: Get up and running with a fresh macOS Catalina install
-
+language: Spanish
 ---
 
 If all of this comes off as mixed-up to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly. Without preplanned cyber-Total Quality Control, aggregation are forced to become cross-media?

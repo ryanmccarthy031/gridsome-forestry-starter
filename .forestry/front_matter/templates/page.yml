@@ -2,6 +2,18 @@
 label: Pages
 hide_body: false
 fields:
+- type: select
+  name: language
+  label: Language
+  description: Select a language for this page
+  hidden: false
+  default: "English"
+  config:
+      source:
+        type: custom
+      options:
+          - "English"
+          - "Spanish"
 - type: text
   name: title
   label: Title

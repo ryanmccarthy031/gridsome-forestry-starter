@@ -2,7 +2,7 @@
 date: 2021-09-23
 title: SPANISH Projects
 excerpt: This is a snippet for the request page.
-
+language: Spanish
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida sollicitudin nisl, id condimentum tortor consectetur eget. Curabitur vitae ornare lectus. Nulla nec ex ultricies, viverra elit id, eleifend eros. Aenean egestas lobortis velit, sit amet vulputate massa ullamcorper id. Morbi eget nunc et quam elementum efficitur. In sit amet ultricies arcu. Sed ultrices metus ante, quis finibus nisi dignissim nec. Cras ultrices fermentum nulla at rhoncus. Ut sit amet euismod nisi. Aenean tristique leo sed porta pretium. Etiam tempus tortor a tincidunt consequat. In mi velit, lacinia eu ligula id, feugiat vestibulum elit.
 
