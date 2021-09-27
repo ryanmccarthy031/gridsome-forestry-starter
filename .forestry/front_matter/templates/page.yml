@@ -10,10 +10,10 @@ fields:
   default: "English"
   config:
       source:
-        type: custom
-      options:
-          - "English"
-          - "Spanish"
+        type: pages
+        section: language
+        file: data/languages.json
+        path:
 - type: text
   name: title
   label: Title
