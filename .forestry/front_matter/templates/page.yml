@@ -12,7 +12,7 @@ fields:
       source:
         type: pages
         section: language
-        file: data/languages.json
+        file: data/languages.yml
         path:
 - type: text
   name: title
