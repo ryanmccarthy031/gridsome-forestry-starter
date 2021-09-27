@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
-  - MainPage
+  - page
 - type: document
   path: data/theme.json
   label: Theme config
