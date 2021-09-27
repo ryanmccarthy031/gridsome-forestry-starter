@@ -9,12 +9,12 @@ fields:
   hidden: false
   default: English
   config:
-      source:
-        type: pages
-        section: language
-        file: 
-        - data/languages.yml
-        path:
+    source:
+      type: pages
+      section: page-bd5d4a61-a7b0-4a8a-8a6f-b1f116e77411
+      file: pages/about.md
+      path: 
+    required: true
 - type: text
   name: title
   label: Title
