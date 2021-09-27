@@ -7,7 +7,7 @@ fields:
   label: Language
   description: Select a language for this page
   hidden: false
-  default: "English"
+  default: English
   config:
       source:
         type: pages
