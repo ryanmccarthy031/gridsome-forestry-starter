@@ -10,12 +10,11 @@ fields:
   default: English
   config:
     source:
-      type: pages
-      section: page-bd5d4a61-a7b0-4a8a-8a6f-b1f116e77411
-      file: pages/about.md
+      type: custom
+      section: pages
+      file: data/languages.json
       path: 
     required: true
-    options: []
 - type: text
   name: title
   label: Title
