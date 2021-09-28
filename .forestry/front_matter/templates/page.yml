@@ -10,8 +10,8 @@ fields:
   default: English
   config:
     source:
-      type: custom
-      section: pages
+      type: pages
+      section: languages
       file: data/languages.json
       path: 
     required: true
