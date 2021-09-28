@@ -1,5 +1,5 @@
 ---
 id: en-us
 short: en
-name: English
+name: English (US)
 ---
