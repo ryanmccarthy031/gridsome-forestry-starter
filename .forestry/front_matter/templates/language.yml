@@ -17,3 +17,6 @@ fields:
   label: Name of the Language
   config:
     required: true
+pages:
+- content/languages/English (US).md
+- content/languages/Español.md

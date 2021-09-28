@@ -3,7 +3,8 @@ date: 2019-06-07
 title: Join
 excerpt: Get up and running with Forestry CMS, a git-backed headless CMS with a slick
   editing interface.
-language: English
+language: content/languages/English (US).md
+
 ---
 #### Use Forestry as a CMS for Gridsome
 
