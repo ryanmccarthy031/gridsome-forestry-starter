@@ -1,25 +1,32 @@
 ---
 date: 2019-06-07
 title: Join
-excerpt: Get up and running with Forestry CMS, a git-backed headless CMS with a slick
-  editing interface.
+excerpt: We collect donated items from members of the community, local groceries and food outlets and distribute them. You can help.
 language: content/languages/English (US).md
 
 ---
-#### Use Forestry as a CMS for Gridsome
+Already familiar with Food Not Bombs? Send us an email at fnbraleigh@gmail.com or fill out [this form](https://docs.google.com/forms/d/1TUPZ59twW5fdEICkD4JJlhRbLS2bN_VBJUMXUnNEJCA/) and we’ll add you to the Slack. We hold regular orientation meetings for new volunteers.
 
-[Forestry](https://forestry.io) is a git-based headless CMS that allows editorial teams to work on Jamstack sites.
+## How to Get Involved
 
-It comes with a slick user interface that empowers editors to edit CommmonMark, YAML, and JSON files.
+FNB is an autonomous collective, which unlike charities and corporations, relies on community members alone to allocate resources to the public. With that comes the opportunity for you as a community member to contribute to a variety of existing roles, and it’s up to you to sign up and volunteer. And unlike corporations and charities, you have the opportunity to challenge your assumptions on how organizations are run, actively participate in democratic processes, and take on or switch to new roles.
 
-Forestry UI was designed by **Nichlas W. Andersen**.
+The easiest way to volunteer is to read the pinned posts each slack channel direct message the point of contact.
 
-You can import this starter to Forestry and start editing and creating posts or projects right away.
+## Roles
 
-Forestry also comes with instant previews, for you to preview your content before publishing.
+### Cooking/Cooking Support
 
-When you save content in **Forestry**, it's committed back to your Git repository. If you link your repository to a service like **Netlify** or **Vercel**, on every push, your site will be deployed over to a CDN network.
+Help us cook delicious vegan meals for distro every Saturday! You can also help transport meals from cooks’ homes to a different location for packing, then bring the meals to distro.
 
-Enjoy the best development and user experience! 🚀
+### Distro
 
-![](/uploads/ian-dooley-281897-unsplash.jpg)
+We hold a weekly distro every Saturday in Moore Square Park from 3pm-5pm. Roles can be signed up for in advance, whether that’s what to do at distro or bringing stuff there. Volunteers are needed to pick up supplies, set up, and be there until 5:00, then break down and take back to storage places. This is a great way to connect with other volunteers and the community!
+
+### Supply Running
+
+This involves going to the store and purchasing any items we might need for distro. Volunteers are provided a list of needs to go shopping with; any shoppers are reimbursed with FNB donation funds. Items can be dropped off at a designated storage area or kept until distro on the following Saturday.
+
+### Clothing Distro
+
+We also have some clothing items at distro; this time of year it’s winter specific, so blankets, sleeping bags, tents, jackets, and socks are some of the things we are most focused on currently. Volunteers can help organize this and get specific items to community members who request them.

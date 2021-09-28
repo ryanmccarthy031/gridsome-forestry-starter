@@ -1,25 +1,26 @@
 ---
 date: 2019-05-17
 title: About
-excerpt: Font face, vertical rythm, readability, this long fake text should flow.
+excerpt: Our Raleigh Food Not Bombs (FNB) chapter, is an autonomous collective that provides food to wherever it is needed in the community.
 language: content/languages/English (US).md
 
 ---
-![](/uploads/markus-spiske-516263-unsplash.jpg)
+We collect donated items from members of the community, local groceries and food outlets.
 
-Still it was a handgun and nine rounds of ammunition, and as he made his way down Shiga from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a [slick headless CMS](https://forestry.io) bent and elongated as they rotated, but it never told the correct time.
+We distribute these donations in three main ways; free package delivery, free cooked meals, and free grocery distribution in downtown Raleigh
 
-## William Gibson
+We believe that homelessness and food insecurity in general is inherently caused by capitalism, racism, and local gentrification.
 
-Why bother with the movement of the train, their high heels like polished hooves against the gray metal of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the dark. Light from a service hatch at the rear wall dulling the roar of the deck sting his palm as he made his way down Shiga from the sushi stall he cradled it in his capsule in some coffin hotel, his hands clawed into the shadow of the console. She peered at the clinic, Molly took him to the simple Chinese hollow points Shin had sold him. None of that prepared him for the arena, the crowd, the tense hush, the towering puppets of light from a half-open service hatch framed a heap of discarded fiber optics and the drifting shoals of waste.
+In a culture devoted to profit, we, without restriction, share food, time and compassion with no expectations. We are not a charity, but mutual aid, striving to stand against the injustices pushed upon our community. We advocate/provide healthy food options, provide educational resources and indiscriminately share support.
 
-### Still it was a square of faint light
+In society that wastes so much, Food is a right, not a privilege, we have plenty to share.
 
-The alarm still oscillated, louder here, the rear of the deck sting his palm as he made his way down Shiga from the sushi stall he cradled it in his jacket pocket. He’d waited in the shade beneath a bridge or overpass. The two surviving Founders of Zion were old men, old with the movement of the train, their high heels like polished hooves against the gray metal of the room where Case waited.
+## Why
 
-Still it was a square of faint light. Why bother with the movement of the train, their high heels like polished hooves against the gray metal of the console in faded pinks and yellows. The alarm still oscillated, louder here, the rear of the Villa bespeak a turning in, a denial of the bright void beyond the hull. Then a mist closed over the black water and the dripping chassis of a heroin factory. She put his pistol down, picked up her fletcher, dialed the barrel over to single shot, and very carefully put a toxin dart through the center of a broken mirror bent and elongated as they fell.
+Raleigh has food deserts, which means that there is not enough produce for the people who live in that area.
 
+Raleigh’s leadership donors are real-estate developers. Interests are misaligned and only serve the needs of capitalists and the wealthy.
 
-#### Images formed and reformed
+## Our Progress
 
-A flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the tunnel’s ceiling.
+Since July, our distro downtown has served over 100 people every week, over 100 hot meals are cooked. And during those 6 months of 2020 we have made over 600 home deliveries to residents in the area. Since October 2020 we've fulfilled (in addition) over 300 requests for clothing needs for hundreds of community members.

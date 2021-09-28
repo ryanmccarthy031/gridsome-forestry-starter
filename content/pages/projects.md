@@ -1,16 +1,46 @@
 ---
 date: 2021-09-23
 title: Projects
-excerpt: This is a snippet for the request page.
+excerpt: We've got several current and upcoming projects that you can get involved with.
 language: content/languages/English (US).md
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida sollicitudin nisl, id condimentum tortor consectetur eget. Curabitur vitae ornare lectus. Nulla nec ex ultricies, viverra elit id, eleifend eros. Aenean egestas lobortis velit, sit amet vulputate massa ullamcorper id. Morbi eget nunc et quam elementum efficitur. In sit amet ultricies arcu. Sed ultrices metus ante, quis finibus nisi dignissim nec. Cras ultrices fermentum nulla at rhoncus. Ut sit amet euismod nisi. Aenean tristique leo sed porta pretium. Etiam tempus tortor a tincidunt consequat. In mi velit, lacinia eu ligula id, feugiat vestibulum elit.
+## Current Projects
 
-Sed quis nulla massa. Fusce rhoncus mi sem, id rutrum lacus tempor sed. Fusce placerat nulla at velit finibus imperdiet. Praesent imperdiet eleifend lacus, vel tempor nisl mattis porttitor. Maecenas nec odio enim. Vestibulum rhoncus egestas tellus, id egestas arcu luctus et. Morbi vitae leo erat. Nam non malesuada nibh. Curabitur feugiat a nisi semper volutpat. Donec pharetra cursus nisl, vitae eleifend dui. Ut dignissim ipsum magna, ac varius lorem porta et. Suspendisse sollicitudin vehicula augue, nec egestas urna elementum vel. Curabitur vitae purus sed tortor semper porttitor. Nam viverra et risus et accumsan. Phasellus ut elementum tortor, at consectetur erat. Nullam efficitur suscipit neque, at dictum nisl consectetur sit amet.
+### Winter Care Packages
 
-Donec eget purus eu massa egestas dictum tincidunt eu ex. Donec bibendum consequat suscipit. Donec diam nulla, dignissim vitae scelerisque sit amet, interdum a eros. Fusce tempus nulla sem, et venenatis sapien hendrerit eu. Cras at diam velit. Nulla porttitor at tortor sollicitudin elementum. Vestibulum imperdiet dui et neque eleifend porta.
+A few of our members make brown paper bag packages to hand out to folks who are on street corners. The bags are stocked with some basic warmth and food essentials.
 
-Fusce tempus malesuada tortor, non sagittis libero pellentesque vel. Aliquam non elit libero. In ante nulla, vulputate sed sagittis sed, hendrerit et tortor. Pellentesque aliquet urna ante. Maecenas dictum velit nec tellus interdum pretium dapibus id dolor. Morbi volutpat leo sit amet erat iaculis lobortis. Donec tempus erat et mollis commodo. Nulla sed egestas quam. Integer varius at magna sit amet ornare. Sed iaculis turpis vitae venenatis malesuada. Vivamus dignissim fringilla lectus, quis varius ex. Donec vel felis nisl. Vestibulum lorem erat, pellentesque vitae nisi nec, eleifend rhoncus ligula. Sed dapibus massa eget enim finibus gravida. Donec eu tempus magna.
+### Accessible Clothing Distribution
 
-Nam a sodales eros. Morbi volutpat risus vel pretium interdum. Sed elementum nisi augue. Nunc in orci non libero eleifend cursus. Sed massa lacus, imperdiet at turpis at, gravida eleifend nunc. Fusce eleifend ornare faucibus. Proin semper in risus eu accumsan. Suspendisse porta dui vel justo pharetra convallis. Nulla sed laoreet lectus. Fusce volutpat elit id erat suscipit placerat. Nulla id tincidunt magna.
+We offer an array of clothing options to those in need downtown as well as special requests.
+
+### Book and Zine Shares
+
+We offer free literature and seek to offer more than the literature we are offering currently.
+
+### Fundraisers for Food Not Bombs & Other Partner Organizations
+
+We seek to partner and raise awareness about other organizations locally besides us as well as advocating for local community members in need. This is currently done via social media and active food/clothes drives.
+
+### Free Food Pantries
+
+We are setting up free food pantry cabinets and placing them around town. You can take what you need and leave what you can, it’s for everyone!
+
+### Food Not Bombs Raleigh Gardening Projects
+
+This offers small scale gardening education as well as building local gardens to contribute to our Food Not Bombs distributions and the community at large.
+
+### Partnership with Diaper Train
+
+Food Not Bombs Raleigh is partnering with the Diaper Train to increase the reach and impact of the important support work they offer to the community. This form is to request Diapers for contact-less delivery via the Food Not Bombs Volunteer Community. 
+
+## Coming Soon
+
+### Restarting the Oak City Really Really Free Market
+
+### Winter Gear and Clothes Drive
+
+### Small Scale Gardening Education
+
+### Skill Shares & other educational workshops
