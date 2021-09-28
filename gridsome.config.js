@@ -2,7 +2,7 @@
 // Learn more: https://gridsome.org/docs/config
 const i18n = require('./plugins/i18n');
 const languages = require('./plugins/languages');
-const filesystem = require('./plugins/pages')
+const pages = require('./plugins/pages')
 
 module.exports = {
   siteName: "Food Not Bombs: Raleigh",
