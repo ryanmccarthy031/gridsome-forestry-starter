@@ -1,7 +1,0 @@
-languages:
-  English:
-    locale: "en-us"
-    name: "English (US)"
-  Spanish:
-    locale: "es-es"
-    name: "Spanish"

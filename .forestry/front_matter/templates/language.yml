@@ -1,0 +1,19 @@
+---
+label: Pages
+hide_body: false
+fields:
+- type: text
+  name: id
+  label: Locale ID
+  config:
+    required: true
+- type: text
+  name: id
+  label: Locale ID Short Form
+  config:
+    required: true
+- type: text
+  name: name
+  label: Name of the Language
+  config:
+    required: true
