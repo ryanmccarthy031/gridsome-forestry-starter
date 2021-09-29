@@ -25,15 +25,24 @@
 
 <static-query>
 query {
-  data: allMainPage {
-    edges {
-      node {
-        id
-        path
-        title
-      }
+    languages: allLanguages {
+        edges {
+            node {
+                id
+                short
+                name
+            }
+        }
+    },
+    data: allMainPage {
+        edges {
+            node {
+                id
+                path
+                title
+            }
+        }
     }
-  }
 }
 </static-query>
 
