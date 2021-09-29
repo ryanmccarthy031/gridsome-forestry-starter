@@ -11,6 +11,13 @@ sections:
   match: "**/*.md"
   templates:
   - page
+- type: directory
+  path: content/languages
+  label: Languages
+  create: documents
+  match: "**/*.md"
+  templates:
+  - language
 - type: document
   path: data/theme.json
   label: Theme config
