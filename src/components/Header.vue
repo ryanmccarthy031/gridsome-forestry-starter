@@ -80,12 +80,12 @@ export default {
             },
             set (val) {
                 this.$i18n.locale = val
-                console.log(this.$route.path.split('/'))
-                
+                this.selectedLanguage = val
+
+                if (this.$route.path.split('/').length>1 && this.$route.path.split('/')[1]===val) return
                 this.$router.push({
                     path: this.$tp(this.$route.path, val, true)
                 })
-                this.selectedLanguage = val
             },
         }
     },
