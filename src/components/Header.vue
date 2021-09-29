@@ -87,6 +87,17 @@ export default {
                     path: this.$tp(this.$route.path, val, true)
                 })
             },
+        },
+        pages () {
+            const language = this.languages.find(lang=>lang.id===this.language)
+            if (!language) return []
+
+            const pages = []
+            for (let i=0; i<this.$static.pages.edges.length; i++) {
+                const page = this.$static.languages.edges[i].node
+                if (page.language === language.name) pages.push()
+            }
+            return pages
         }
     },
     methods: {
