@@ -25,9 +25,9 @@
                     name="language" 
                     id="language">
                     <option
-                        v-for="lang in $static.languages.edges"
-                        :key="lang.node.id"
-                        :value="lang.node.id">{{ lang.node.name }}</option>
+                        v-for="(lang, id) in languages"
+                        :key="id"
+                        :value="id">{{ lang.name }}</option>
                 </select>
             </div>
         </div>
@@ -66,8 +66,17 @@ export default {
             language: null,
         }
     },
+    computed: {
+        languages () {
+            const languages = {}
+            for (let i=0; i<this.$static.languages.edges.length; i++) {
+                languages[this.$static.languages.edges[i].node.id] = this.$static.languages.edges[i].node
+            }
+            return languages
+        },
+    },
     mounted () {
-        console.log("QUERY", this.$static.languages.edges)
+        console.log("QUERY", this.languages)
     },
 }
 </script>
