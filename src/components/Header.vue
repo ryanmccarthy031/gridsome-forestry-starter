@@ -82,7 +82,7 @@ export default {
                 this.$i18n.locale = val
                 this.selectedLanguage = val
 
-                if (this.$route.path.split('/').length>1 && this.$route.path.split('/')[1]===val) return
+                if (this.$route.path===`/${val}/`) return
                 this.$router.push({
                     path: this.$tp(this.$route.path, val, true)
                 })
@@ -98,6 +98,7 @@ export default {
         }
     },
     mounted () {    
+        console.log(this.$18n.locale)
         const defaultLang = this.findLanguageById(navigator.language)
         if (defaultLang) return this.language = defaultLang.id
         else {
