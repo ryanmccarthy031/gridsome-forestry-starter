@@ -26,8 +26,8 @@
                     id="language">
                     <option
                         v-for="lang in $static.languages.edges"
-                        :key="lang.id"
-                        :value="lang.id">{{ lang.name }}</option>
+                        :key="lang.node.id"
+                        :value="lang.node.id">{{ lang.node.name }}</option>
                 </select>
             </div>
         </div>
