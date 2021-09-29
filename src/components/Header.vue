@@ -80,6 +80,7 @@ export default {
             },
             set (val) {
                 this.$i18n.locale = val
+                console.log(this.$route.path)
                 this.$router.push({
                     path: this.$tp(this.$route.path, val, true)
                 })
