@@ -74,7 +74,7 @@ export default {
             }
             return languages
         },
-        langauge: {
+        language: {
             get () {
                 return this.selectedLanguage
             },
