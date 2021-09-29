@@ -104,7 +104,7 @@ export default {
                 console.log(page.language.split("/").pop())
                 console.log(page.language.split("/").pop().split('.'))
                 console.log(page.language.split("/").pop().split('.').shift())
-                console.log(pageLanguage)
+                console.log(pageLanguage, language.name, pageLanguage===language.name)
                 if (pageLanguage === language.name) pages.push()
             }
             return pages
