@@ -95,6 +95,8 @@ export default {
             const pages = []
             for (let i=0; i<this.$static.pages.edges.length; i++) {
                 const page = this.$static.pages.edges[i].node
+                console.log(page)
+                console.log(this.$static.pages.edges[i])
                 const pageLanguage = page.language.split("/")
                     .pop()
                     .split(".")
