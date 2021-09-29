@@ -2,7 +2,7 @@
     <header class="header" :class="{sticky: $route.path === '/'}">
         <div class="container">
             <div class="left">
-                <g-link :to="{ name: 'home' }" class="home-link">
+                <g-link :to="$route.name==='home' ? null : { name: 'home' }" class="home-link">
                     <img 
                         src="../../static/logo.png"
                         :alt="settings.site_name" 
@@ -63,7 +63,7 @@ export default {
         return {
             logo: require("../../static/logo.png"),
             settings: require("../../data/theme.json"),
-            selectedLanguage: this.$i18n.locale.toString(),
+            selectedLanguage: this.$context.locale,
         }
     },
     computed: {
