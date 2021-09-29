@@ -25,9 +25,9 @@
                     name="language" 
                     id="language">
                     <option
-                        v-for="(lang, id) in languages"
-                        :key="id"
-                        :value="id">{{ lang.name }}</option>
+                        v-for="(lang, index) in languages"
+                        :key="`language-${index}`"
+                        :value="lang.id">{{ lang.name }}</option>
                 </select>
             </div>
         </div>
@@ -68,15 +68,31 @@ export default {
     },
     computed: {
         languages () {
-            const languages = {}
+            const languages = []
             for (let i=0; i<this.$static.languages.edges.length; i++) {
-                languages[this.$static.languages.edges[i].node.id] = this.$static.languages.edges[i].node
+                languages.push(this.$static.languages.edges[i].node)
             }
             return languages
         },
     },
-    mounted () {
-        console.log("QUERY", this.languages)
+    methods: {
+        findLanguageById (id) {
+            return this.languages.find(lang=>{
+                return lang.id.localeCompare(id, undefined, {sensitivity: 'base'}) === 0 ||
+                    lang.short.localeCompare(id, undefined, {sensitivity: 'base'}) === 0
+            })
+        }
+    },
+    mounted () {    
+        const defaultLang = this.findLanguageById(navigator.language)
+        if (defaultLang) return this.language = defaultLang.id
+        else {
+            for (let i=0; i<navigator.languages.length; i++) {
+                const lang = this.findLanguageById(navigator.languages[i])
+                if (lang) return this.language = lang.id
+            }
+        }
+        this.language = 'en-us'
     },
 }
 </script>
