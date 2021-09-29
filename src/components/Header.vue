@@ -19,6 +19,17 @@
                     {{ page.node.title }}
                 </g-link>
             </nav>
+            <div>
+                <select
+                    v-model="language"
+                    name="language" 
+                    id="language">
+                    <option
+                        v-for="lang in $static.languages.edges"
+                        :key="lang.id"
+                        :value="lang.id">{{ lang.name }}</option>
+                </select>
+            </div>
         </div>
     </header>
 </template>
@@ -51,11 +62,12 @@ export default {
     data() {
         return {
             logo: require("../../static/logo.png"),
-            settings: require("../../data/theme.json")
+            settings: require("../../data/theme.json"),
+            language: null,
         }
     },
     mounted () {
-        console.log("QUERY", this.$static)
+        console.log("QUERY", this.$static.languages.edges)
     },
 }
 </script>
