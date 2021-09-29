@@ -25,7 +25,7 @@
 
 <static-query>
 query {
-    languages: allLanguages {
+    languages: allLanguage {
         edges {
             node {
                 id
