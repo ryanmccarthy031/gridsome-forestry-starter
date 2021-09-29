@@ -63,7 +63,7 @@ export default {
         return {
             logo: require("../../static/logo.png"),
             settings: require("../../data/theme.json"),
-            selectedLanguage: this.$context.locale,
+            selectedLanguage: this.$i18n.locale.toString(),
         }
     },
     computed: {
