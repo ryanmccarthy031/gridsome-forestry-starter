@@ -95,7 +95,11 @@ export default {
             const pages = []
             for (let i=0; i<this.$static.pages.edges.length; i++) {
                 const page = this.$static.pages.edges[i].node
-                if (page.language === language.name) pages.push()
+                const pageLanguage = page.language.split("/")
+                    .pop()
+                    .split(".")
+                    .shift()
+                if (pageLanguage === language.name) pages.push()
             }
             return pages
         }
