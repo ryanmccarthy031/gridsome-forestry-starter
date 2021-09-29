@@ -63,7 +63,7 @@ export default {
         return {
             logo: require("../../static/logo.png"),
             settings: require("../../data/theme.json"),
-            language: null,
+            selectedLanguage: this.$i18n.locale.toString(),
         }
     },
     computed: {
@@ -74,6 +74,18 @@ export default {
             }
             return languages
         },
+        langauges: {
+            get () {
+                return this.selectedLanguage
+            },
+            set (val) {
+                this.$i18n.locale = val
+                this.$router.push({
+                    path: this.$tp(this.$route.path, val, true)
+                })
+                this.selectedLanguage = val
+            },
+        }
     },
     methods: {
         findLanguageById (id) {
