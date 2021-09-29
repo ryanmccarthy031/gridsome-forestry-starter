@@ -100,12 +100,7 @@ export default {
                     .pop()
                     .split(".")
                     .shift()
-                console.log(page.language.split("/"))
-                console.log(page.language.split("/").pop())
-                console.log(page.language.split("/").pop().split('.'))
-                console.log(page.language.split("/").pop().split('.').shift())
-                console.log(pageLanguage, language.name, pageLanguage===language.name)
-                if (pageLanguage === language.name) pages.push()
+                if (pageLanguage === language.name) pages.push(page)
             }
             return pages
         }
