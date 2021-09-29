@@ -45,7 +45,7 @@ query {
             }
         }
     },
-    data: allMainPage {
+    pages: allMainPage {
         edges {
             node {
                 id
