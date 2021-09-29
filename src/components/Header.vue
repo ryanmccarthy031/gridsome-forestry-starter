@@ -13,10 +13,10 @@
             <nav class="nav right">
                 <g-link
                     class="nav__link" 
-                    v-for="page in $static.data.edges" 
-                    :key="page.node.id"
-                    :to="page.node.path">
-                    {{ page.node.title }}
+                    v-for="(page, index) in pages" 
+                    :key="`page-${index}`"
+                    :to="page.path">
+                    {{ page.title }}
                 </g-link>
             </nav>
             <div>
@@ -94,7 +94,7 @@ export default {
 
             const pages = []
             for (let i=0; i<this.$static.pages.edges.length; i++) {
-                const page = this.$static.languages.edges[i].node
+                const page = this.$static.pages.edges[i].node
                 if (page.language === language.name) pages.push()
             }
             return pages
