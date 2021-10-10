@@ -36,15 +36,6 @@
 
 <static-query>
 query {
-    languages: allLanguage {
-        edges {
-            node {
-                id
-                short
-                name
-            }
-        }
-    },
     pages: allMainPage {
         edges {
             node {
@@ -68,13 +59,6 @@ export default {
         }
     },
     computed: {
-        languages () {
-            const languages = []
-            for (let i=0; i<this.$static.languages.edges.length; i++) {
-                languages.push(this.$static.languages.edges[i].node)
-            }
-            return languages
-        },
         language: {
             get () {
                 return this.selectedLanguage
@@ -106,12 +90,12 @@ export default {
         // }
     },
     methods: {
-        findLanguageById (id) {
-            return this.languages.find(lang=>{
-                return lang.id.localeCompare(id, undefined, {sensitivity: 'base'}) === 0 ||
-                    lang.short.localeCompare(id, undefined, {sensitivity: 'base'}) === 0
-            })
-        }
+        // findLanguageById (id) {
+        //     return this.languages.find(lang=>{
+        //         return lang.id.localeCompare(id, undefined, {sensitivity: 'base'}) === 0 ||
+        //             lang.short.localeCompare(id, undefined, {sensitivity: 'base'}) === 0
+        //     })
+        // }
     },
     // mounted () {    
     //     console.log(this.$i18n.locale )
