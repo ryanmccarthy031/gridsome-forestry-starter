@@ -1,7 +1,6 @@
 // This is where project configuration and installed plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 const i18n = require('./plugins/i18n');
-const languages = require('./plugins/languages');
 const pages = require('./plugins/pages')
 
 module.exports = {
