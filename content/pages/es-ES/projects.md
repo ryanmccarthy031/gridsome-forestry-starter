@@ -1,8 +1,8 @@
 ---
 date: 2021-09-23
-title: Projects
+title: Spanish Projects
 excerpt: We've got several current and upcoming projects that you can get involved with.
-language: content/languages/English (US).md
+locale: es-ES
 
 ---
 ## Current Projects

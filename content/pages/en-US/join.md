@@ -2,7 +2,7 @@
 date: 2019-06-07
 title: Join
 excerpt: We collect donated items from members of the community, local groceries and food outlets and distribute them. You can help.
-language: content/languages/English (US).md
+locale: en-US
 
 ---
 Already familiar with Food Not Bombs? Send us an email at fnbraleigh@gmail.com or fill out [this form](https://docs.google.com/forms/d/1TUPZ59twW5fdEICkD4JJlhRbLS2bN_VBJUMXUnNEJCA/) and we’ll add you to the Slack. We hold regular orientation meetings for new volunteers.

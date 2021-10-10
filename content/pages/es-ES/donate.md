@@ -1,8 +1,8 @@
 ---
 date: 2019-05-18
-title: Donate
+title: Spanish Donate
 excerpt: We've got several ways you can contribute.
-language: content/languages/English (US).md
+locale: es-ES
 
 ---
 * [Funds for General Use](https://opencollective.com/fnb_raleigh)

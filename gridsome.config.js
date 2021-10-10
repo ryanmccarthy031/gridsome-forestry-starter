@@ -10,7 +10,7 @@ module.exports = {
   host: "0.0.0.0",
   titleTemplate: "%s - FNB",
   siteDescription: "An Autonomous Collective",
-  plugins: [ i18n, pages, languages ],
+  plugins: [ i18n, pages ],
   transformers: {
     remark: {
       plugins: ["@gridsome/remark-prismjs"]

@@ -1,8 +1,8 @@
 ---
 date: 2019-06-04
-title: Requestsasdf
+title: Requests
 excerpt: Additional information about Food Not Bombs and other groups that might be helpful.
-language: content/languages/Español.md
+locale: en-US
 ---
 ## FNB Resources
 

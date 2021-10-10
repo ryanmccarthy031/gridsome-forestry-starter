@@ -3,17 +3,17 @@ label: Pages
 hide_body: false
 fields:
 - type: select
-  name: language
-  label: Language
-  description: Select a language for this page
+  name: locale
+  label: Locale
+  description: Select a locale for this page
   hidden: false
-  default: English
+  default: en-US
   config:
     source:
-      type: pages
-      section: languages
-      file: data/languages.json
-      path: 
+      type: custom
+    options:
+      - "en-US"
+      - "es-ES" 
     required: true
 - type: text
   name: title
