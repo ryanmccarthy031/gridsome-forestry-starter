@@ -25,7 +25,7 @@
                     name="language" 
                     id="language">
                     <option
-                        v-for="(lang, index) in this.$i18n.availableLocales"
+                        v-for="(lang, index) in $i18n.availableLocales"
                         :key="`language-${index}`"
                         :value="lang">{{ lang }}</option>
                 </select>
