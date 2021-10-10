@@ -42,7 +42,7 @@ query {
                 id
                 path
                 title
-                language
+                locale
             }
         }
     }
