@@ -2,7 +2,7 @@
     <header class="header" :class="{sticky: $route.path === '/'}">
         <div class="container">
             <div class="left">
-                <g-link to="/" class="home-link">
+                <g-link :to="$tp('/')" class="home-link">
                     <img 
                         src="../../static/logo.png"
                         :alt="settings.site_name" 
@@ -15,7 +15,7 @@
                     class="nav__link" 
                     v-for="(page, index) in pages" 
                     :key="`page-${index}`"
-                    :to="page.path">
+                    :to="$tp(page.path)">
                     {{ page.title }}
                 </g-link>
             </nav>
@@ -25,9 +25,9 @@
                     name="language" 
                     id="language">
                     <option
-                        v-for="(lang, index) in languages"
+                        v-for="(lang, index) in this.$i18n.availableLocales"
                         :key="`language-${index}`"
-                        :value="lang.id">{{ lang.name }}</option>
+                        :value="lang">{{ lang }}</option>
                 </select>
             </div>
         </div>
@@ -89,21 +89,21 @@ export default {
                 })
             },
         },
-        pages () {
-            const language = this.languages.find(lang=>lang.id===this.language)
-            if (!language) return []
+        // pages () {
+        //     const language = this.languages.find(lang=>lang.id===this.language)
+        //     if (!language) return []
 
-            const pages = []
-            for (let i=0; i<this.$static.pages.edges.length; i++) {
-                const page = this.$static.pages.edges[i].node
-                const pageLanguage = page.language.split("/")
-                    .pop()
-                    .split(".")
-                    .shift()
-                if (pageLanguage === language.name) pages.push(page)
-            }
-            return pages
-        }
+        //     const pages = []
+        //     for (let i=0; i<this.$static.pages.edges.length; i++) {
+        //         const page = this.$static.pages.edges[i].node
+        //         const pageLanguage = page.language.split("/")
+        //             .pop()
+        //             .split(".")
+        //             .shift()
+        //         if (pageLanguage === language.name) pages.push(page)
+        //     }
+        //     return pages
+        // }
     },
     methods: {
         findLanguageById (id) {
