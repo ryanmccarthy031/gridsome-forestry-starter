@@ -2,7 +2,7 @@
 // Learn more: https://gridsome.org/docs/config
 const i18n = require('./plugins/i18n');
 const pages = require('./plugins/pages')
-const tailwinds = require('./plugins/tailwinds')
+const tailwind = require('./plugins/tailwind')
 
 module.exports = {
   siteName: "Food Not Bombs: Raleigh",
@@ -10,7 +10,7 @@ module.exports = {
   host: "0.0.0.0",
   titleTemplate: "%s - FNB",
   siteDescription: "An Autonomous Collective",
-  plugins: [ i18n, pages, tailwinds ],
+  plugins: [ i18n, pages, tailwind ],
   transformers: {
     remark: {
       plugins: ["@gridsome/remark-prismjs"]
