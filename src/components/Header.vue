@@ -13,7 +13,7 @@
             <nav class="nav right">
                 <g-link
                     class="nav__link" 
-                    v-for="(page, index) in $static.pages.edges" 
+                    v-for="(page, index) in pages" 
                     :key="`page-${index}`"
                     :to="$tp(page.node.path)">
                     {{ page.node.title }}
@@ -60,6 +60,9 @@ export default {
         }
     },
     computed: {
+        pages () {
+            return this.$static.pages.edges.filter(page=>page.node.locale===this.$i18n.locale)
+        },
         language: {
             get () {
                 return this.selectedLanguage
