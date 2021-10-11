@@ -12,8 +12,8 @@ fields:
     source:
       type: custom
     options:
-      - "en-US"
-      - "es-ES" 
+    - en-US
+    - es-ES
     required: true
 - type: text
   name: title
