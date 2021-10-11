@@ -74,32 +74,10 @@ export default {
                 })
             },
         },
-        i18n () {
-            return this.$i18n
-        }
     },
-    methods: {
-        // findLanguageById (id) {
-        //     return this.languages.find(lang=>{
-        //         return lang.id.localeCompare(id, undefined, {sensitivity: 'base'}) === 0 ||
-        //             lang.short.localeCompare(id, undefined, {sensitivity: 'base'}) === 0
-        //     })
-        // }
-    },
-    mounted () {    
-        console.log(this.$i18n.locales )
-        console.log(this.$i18n )
-        console.log(this.availableLocales )
-        // const defaultLang = this.findLanguageById(navigator.language)
-        // if (defaultLang) return this.language = defaultLang.id
-        // else {
-        //     for (let i=0; i<navigator.languages.length; i++) {
-        //         const lang = this.findLanguageById(navigator.languages[i])
-        //         if (lang) return this.language = lang.id
-        //     }
-        // }
-        // this.language = 'en-us'
-    },
+    mounted () {
+        console.log(this.$locale)
+    }
 }
 </script>
 
