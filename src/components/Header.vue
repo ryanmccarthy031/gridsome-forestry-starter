@@ -87,7 +87,7 @@ export default {
         // }
     },
     mounted () {    
-        console.log(this.$i18n.availableLocales )
+        console.log(this.$i18n.locales )
         console.log(this.$i18n )
         console.log(this.availableLocales )
         // const defaultLang = this.findLanguageById(navigator.language)
