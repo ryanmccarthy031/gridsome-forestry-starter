@@ -74,6 +74,9 @@ export default {
                 })
             },
         },
+        i18n () {
+            return this.$i18n
+        }
     },
     methods: {
         // findLanguageById (id) {
