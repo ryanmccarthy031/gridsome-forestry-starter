@@ -1,46 +1,47 @@
 ---
 date: 2021-09-23
-title: Spanish Projects
-excerpt: We've got several current and upcoming projects that you can get involved with.
+title: Proyectos
+excerpt: Tenemos varios proyectos actuales y futuros en los que puede participar.
 locale: es-ES
 
 ---
-## Current Projects
+## Proyectos Actuales
 
-### Winter Care Packages
+### **Paquetes de cuidado de invierno**
 
-A few of our members make brown paper bag packages to hand out to folks who are on street corners. The bags are stocked with some basic warmth and food essentials.
+Algunos de nuestros miembros hacen paquetes en bolsas de papel para entregar a las personas que están en las esquinas. Las bolsas tienen algunos elementos básicos para mantenerse calientes y unos alimentos.
 
-### Accessible Clothing Distribution
+### **Distribución de ropa accesible**
 
-We offer an array of clothing options to those in need downtown as well as special requests.
+Ofrecemos una variedad de opciones de ropa para aquellos que lo necesitan en el centro de la ciudad, así como para solicitudes especiales. Realizamos colectas de ropa durante todo el invierno, especialmente para aquellos que tienen que vivir en temperaturas bajo cero.
 
-### Book and Zine Shares
+### **Compartimiento de libros y zines**
 
-We offer free literature and seek to offer more than the literature we are offering currently.
+Ofrecemos literatura gratuita y buscamos ofrecer más en el futuro.
 
-### Fundraisers for Food Not Bombs & Other Partner Organizations
+### **Recaudación de fondos para Food Not Bombs y otras  
+organizaciones asociadas**
 
-We seek to partner and raise awareness about other organizations locally besides us as well as advocating for local community members in need. This is currently done via social media and active food/clothes drives.
+Buscamos asociarnos y crear conciencia sobre otras organizaciones a nivel local además de nosotros, así como abogar por los miembros de la comunidad local que lo necesiten. Actualmente, esto se hace a través de las redes sociales y campañas activas de comida / ropa.
 
-### Free Food Pantries
+### **Despensas de alimentos gratis**
 
-We are setting up free food pantry cabinets and placing them around town. You can take what you need and leave what you can, it’s for everyone!
+Estamos instalando gabinetes de despensa de alimentos gratuitos y los colocamos por la ciudad. Puedes tomar lo que necesites y dejar lo que puedas, ¡es para todos!
 
-### Food Not Bombs Raleigh Gardening Projects
+### **Proyectos de jardinería de Food Not Bombs Raleigh**
 
-This offers small scale gardening education as well as building local gardens to contribute to our Food Not Bombs distributions and the community at large.
+Ofrece educación sobre jardinería a pequeña escala, así como la construcción de huertos locales para contribuir a nuestras distribuciones de Food Not Bombs y a la comunidad en general.
 
-### Partnership with Diaper Train
+### **Asociación con Diaper Train**
 
-Food Not Bombs Raleigh is partnering with the Diaper Train to increase the reach and impact of the important support work they offer to the community. This form is to request Diapers for contact-less delivery via the Food Not Bombs Volunteer Community. 
+Food Not Bombs Raleigh se está asociando con Diaper Train para aumentar el alcance y el impacto del importante trabajo de apoyo que ofrecen a la comunidad. Este formulario es para solicitar pañales para entrega sin contacto a través de la comunidad de voluntarios de Food Not Bombs.
 
-## Coming Soon
+## Próximamente
 
-### Restarting the Oak City Really Really Free Market
+### Reiniciar El Mercado Realmente Realmente Gratis de la Ciudad de Oak
 
-### Winter Gear and Clothes Drive
+### Colecta de ropa y equipo de invierno
 
-### Small Scale Gardening Education
+### Educación en jardinería a pequeña escala
 
-### Skill Shares & other educational workshops
+### Habilidades compartidas y otros talleres educativos
