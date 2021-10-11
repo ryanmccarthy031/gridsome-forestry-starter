@@ -8,6 +8,4 @@ module.exports = {
         fallbackLocale: 'en-US',
         defaultLocale: 'en-US',
     },
-    enablePathGeneration: false, // disable path generation
-    routes: {} // disable path generation
 }
