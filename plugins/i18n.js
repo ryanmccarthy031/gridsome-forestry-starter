@@ -8,8 +8,8 @@ module.exports = {
         fallbackLocale: 'en-US',
         defaultLocale: 'en-US',
         messages: {
-            'en-us': require('../locales/en-us.json'), // Messages files
-            'es-es': require('../locales/es-es.json'),
+            'en-US': require('../locales/en-us.json'), // Messages files
+            'es-ES': require('../locales/es-es.json'),
           }
     },
 }
