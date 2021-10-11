@@ -5,10 +5,6 @@ module.exports = {
             'es-ES',
             'en-US',
         ],
-        pathAliases: {
-            'es-ES': 'es',
-            'en-US': 'us'
-        },
         fallbackLocale: 'en-US',
         defaultLocale: 'en-US',
     },
