@@ -1,32 +1,35 @@
 ---
 date: 2019-06-07
-title: Spanish Join
-excerpt: We collect donated items from members of the community, local groceries and food outlets and distribute them. You can help.
+title: Unéte a Nosotros
+excerpt: Recopilamos artículos donados de miembros de la comunidad, comestibles locales
+  y puntos de venta de alimentos y los distribuimos. Puedes ayudar.
 locale: es-ES
 
 ---
-Already familiar with Food Not Bombs? Send us an email at fnbraleigh@gmail.com or fill out [this form](https://docs.google.com/forms/d/1TUPZ59twW5fdEICkD4JJlhRbLS2bN_VBJUMXUnNEJCA/) and we’ll add you to the Slack. We hold regular orientation meetings for new volunteers.
+¿Ya estás familiarizado con Food Not Bombs? Envía un correo electrónico a fnbraleigh@gmail.com y lo añadiremos a la holgura. Llevamos a cabo reuniones de orientación para nuevos voluntarios regularmente.
 
-## How to Get Involved
+## Cómo Participar
 
-FNB is an autonomous collective, which unlike charities and corporations, relies on community members alone to allocate resources to the public. With that comes the opportunity for you as a community member to contribute to a variety of existing roles, and it’s up to you to sign up and volunteer. And unlike corporations and charities, you have the opportunity to challenge your assumptions on how organizations are run, actively participate in democratic processes, and take on or switch to new roles.
-
-The easiest way to volunteer is to read the pinned posts each slack channel direct message the point of contact.
+FNB es un colectivo autónomo que, a diferencia de las organizaciones benéficas y las corporaciones, depende únicamente de los miembros de la comunidad para asignar recursos al público. Con eso viene la oportunidad para que tú, como miembro de la comunidad, contribuyas a una variedad de roles existentes, y depende de ti registrarte y ser voluntario. Y a diferencia de las empresas y organizaciones benéficas, tú tienes la oportunidad de desafiar tus suposiciones sobre cómo se ejecutan las organizaciones, participar activamente en los procesos democráticos, y asumir o cambiar a nuevas funciones.  
+  
+La forma más fácil de ser voluntario es leer las publicaciones fijadas en cada canal de Slack, enviar un mensaje directo al punto de contacto.
 
 ## Roles
 
-### Cooking/Cooking Support
+### Cocinar/Soporte Cocinar
 
-Help us cook delicious vegan meals for distro every Saturday! You can also help transport meals from cooks’ homes to a different location for packing, then bring the meals to distro.
+¡Ayúdanos a cocinar deliciosas comidas veganas para Distro todos los sábados! También puedes transportar las comida de las casas de los cocineros a una ubicación diferente para el empaque y llevar las comidas empacadas a distro.
 
 ### Distro
 
-We hold a weekly distro every Saturday in Moore Square Park from 3pm-5pm. Roles can be signed up for in advance, whether that’s what to do at distro or bringing stuff there. Volunteers are needed to pick up supplies, set up, and be there until 5:00, then break down and take back to storage places. This is a great way to connect with other volunteers and the community!
+Realizamos una distribución semanal todos los sábados en Moore Square Park de 3 pm a 5 pm. Los roles se pueden registrar con anticipación, ya sea que se trate de hacer distribución o de traer cosas allí. Se necesitan voluntarios para recoger los suministros, prepararlos y estar allí hasta las 5:00, luego recoger y llevar a los lugares de almacenamiento. ¡Esta es una excelente manera de conectarse con otros voluntarios y la comunidad!
 
-### Supply Running
+### Ejecución de Suministro
 
 This involves going to the store and purchasing any items we might need for distro. Volunteers are provided a list of needs to go shopping with; any shoppers are reimbursed with FNB donation funds. Items can be dropped off at a designated storage area or kept until distro on the following Saturday.
 
-### Clothing Distro
+### Distribución de Ropa
 
-We also have some clothing items at distro; this time of year it’s winter specific, so blankets, sleeping bags, tents, jackets, and socks are some of the things we are most focused on currently. Volunteers can help organize this and get specific items to community members who request them.
+También repartimos algunas prendas de vestir en Distro. En esta época del año es específica para el invierno, por lo que las cobijas, las bolsas de dormir, las casas de campaña, los abrigos y los calcetines son algunas de las cosas en las que estamos más enfocados actualmente. Los voluntarios pueden ayudar a organizar esto y entregar artículos específicos a los miembros de la comunidad que los soliciten.
+
+[ver infografía completa aquí](https://drive.google.com/file/d/1YlAJx1dudLMLJqm3JclqDUEystEKAvgg/view)
