@@ -13,10 +13,10 @@
             <nav class="nav right">
                 <g-link
                     class="nav__link" 
-                    v-for="(page, index) in pages" 
+                    v-for="(page, index) in $static.pages.edges" 
                     :key="`page-${index}`"
-                    :to="$tp(page.path)">
-                    {{ page.title }}
+                    :to="$tp(page.node.path)">
+                    {{ page.node.title }}
                 </g-link>
             </nav>
             <div>
@@ -73,21 +73,6 @@ export default {
                 })
             },
         },
-        // pages () {
-        //     const language = this.languages.find(lang=>lang.id===this.language)
-        //     if (!language) return []
-
-        //     const pages = []
-        //     for (let i=0; i<this.$static.pages.edges.length; i++) {
-        //         const page = this.$static.pages.edges[i].node
-        //         const pageLanguage = page.language.split("/")
-        //             .pop()
-        //             .split(".")
-        //             .shift()
-        //         if (pageLanguage === language.name) pages.push(page)
-        //     }
-        //     return pages
-        // }
     },
     methods: {
         // findLanguageById (id) {
