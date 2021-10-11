@@ -25,7 +25,7 @@
                     name="language" 
                     id="language">
                     <option
-                        v-for="(lang, index) in $i18n.availableLocales"
+                        v-for="(lang, index) in availableLocales"
                         :key="`language-${index}`"
                         :value="lang">{{ lang }}</option>
                 </select>
@@ -56,6 +56,7 @@ export default {
             logo: require("../../static/logo.png"),
             settings: require("../../data/theme.json"),
             selectedLanguage: this.$i18n.locale.toString(),
+            availableLocales: this.$i18n.availableLocales,
         }
     },
     computed: {
@@ -84,6 +85,8 @@ export default {
     },
     mounted () {    
         console.log(this.$i18n.availableLocales )
+        console.log(this.$i18n )
+        console.log(this.availableLocales )
         // const defaultLang = this.findLanguageById(navigator.language)
         // if (defaultLang) return this.language = defaultLang.id
         // else {
