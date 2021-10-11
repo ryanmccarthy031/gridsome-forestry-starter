@@ -35,8 +35,8 @@
 </template>
 
 <static-query>
-query($locale: String) {
-    pages: allMainPage(filter: { locale: { eq: $locale } }) {
+query {
+    pages: allMainPage {
         edges {
             node {
                 id
