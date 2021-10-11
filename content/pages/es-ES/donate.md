@@ -1,7 +1,7 @@
 ---
 date: 2019-05-18
 title: Donar
-excerpt: We've got several ways you can contribute.
+excerpt: Tenemos varias formas en las que puede contribuir.
 locale: es-ES
 
 ---
