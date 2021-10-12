@@ -1,6 +1,6 @@
 <template>
-    <footer class="footer">
-        <div class="container">
+    <footer>
+        <div>
             <a :href="$t('copyrightLink')">{{ $t("copyright") }}</a>
         </div>
     </footer>

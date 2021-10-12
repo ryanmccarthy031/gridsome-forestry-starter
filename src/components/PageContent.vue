@@ -1,6 +1,5 @@
 <template>
     <div 
-        class="journal-content"
         v-html="content"
     />
 </template>

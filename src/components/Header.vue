@@ -1,7 +1,7 @@
 <template>
-    <header class="header" :class="{sticky: $route.path === '/'}">
-        <div class="container">
-            <div class="left">
+    <header>
+        <div>
+            <div>
                 <g-link :to="$tp('/')" class="home-link">
                     <img 
                         src="../../static/logo.png"
@@ -10,9 +10,8 @@
                     />
                 </g-link>
             </div>
-            <nav class="nav right">
+            <nav>
                 <g-link
-                    class="nav__link" 
                     v-for="(page, index) in pages" 
                     :key="`page-${index}`"
                     :to="$tp(page.node.path)">

@@ -1,6 +1,6 @@
 <template>
   <Layout :pages="$page.pages.edges">
-    <div class="container">
+    <div>
       <Hero />
     </div>
   </Layout>
