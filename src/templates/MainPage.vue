@@ -20,7 +20,7 @@ query MainPage ($path: String!, $locale: String) {
     title
     content
   }
-  pages: allMainPage(filter: { locale: { eq: $locale } }) {
+  pages: allMainPage(filter: { locale: { eq: $locale } }, sort: [{ by: "priority", order: DESC }) {
     edges {
         node {
             id
