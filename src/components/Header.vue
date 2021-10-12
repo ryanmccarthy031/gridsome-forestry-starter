@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="shadow bg-base-200">
         <div class="w-40 flex-none">
             <g-link :to="$tp('/')">
                 <img
@@ -7,7 +7,7 @@
                     :alt="settings.site_name" />
             </g-link>
         </div>
-        <div class="shadow bg-base-200 drawer h-52">
+        <div class="drawer">
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle"> 
             <div class="flex flex-col drawer-content">
                 <div class="w-full navbar bg-base-300">
@@ -25,7 +25,10 @@
                         </ul>
                     </nav>
                     <div class="flex-1 px-2 mx-2">
-                        <select v-model="language">
+                        <select 
+                            class="select select-bordered w-full max-w-xs"
+                            v-model="language">
+                            <option disabled="disabled" selected="selected">Choose a language</option> 
                             <option
                                 v-for="(lang, index) in availableLocales"
                                 :key="`language-${index}`"
