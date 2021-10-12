@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="journal bg-gray-900 text-gray-100">
+    <div class="journal text-gray-100">
       <div class="container journal-container">
 
         <div class="journal-header">

@@ -5,7 +5,20 @@
     </div>
   </Layout>
 </template>
-
+<page-query>
+query MainPage ($locale: String) {
+  pages: allMainPage(filter: { locale: { eq: $locale } }) {
+    edges {
+        node {
+            id
+            path
+            title
+            locale
+        }
+    }
+  }
+}
+</page-query>
 <script>
 import Hero from "@/components/Hero"
 
@@ -13,5 +26,8 @@ export default {
   components: {
     Hero,
   },
+  created () {
+    console.log(this.$page)
+  }
 }
 </script>
