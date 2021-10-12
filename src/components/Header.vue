@@ -1,7 +1,7 @@
 <template>
-    <header class="shadow bg-base-200 drawer">
+    <header class="shadow bg-base-200">
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle"> 
-        <div class="flex flex-col drawer-content">
+        <div class="flex flex-col">
             <div class="w-full navbar bg-base-300">
                 <div class="w-20 lg:w-40 flex-none">
                     <g-link :to="$tp('/')">
@@ -25,17 +25,7 @@
                     </ul>
                 </nav>
                 <div class="flex-1 px-2 mx-2 hidden lg:block">
-                    <select 
-                        class="select select-bordered w-full max-w-xs"
-                        v-model="language">
-                        <option disabled="disabled" selected="selected">Choose a language</option> 
-                        <option
-                            v-for="(lang, index) in availableLocales"
-                            :key="`language-${index}`"
-                            :value="lang">
-                            {{ $t(lang) }}
-                        </option>
-                    </select>
+                    <language-selector />
                 </div>
                 <div class="flex-1 lg:hidden grid">
                     <label for="my-drawer-3" class="btn btn-square btn-ghost justify-self-end">
@@ -70,48 +60,26 @@
                         </g-link>
                     </li>
                 </ul>
-                <select 
-                    class="select select-bordered w-full min-w-min max-w-xs"
-                    v-model="language">
-                    <option disabled="disabled" selected="selected">Choose a language</option> 
-                    <option
-                        v-for="(lang, index) in availableLocales"
-                        :key="`language-${index}`"
-                        :value="lang">
-                        {{ $t(lang) }}
-                    </option>
-                </select>
+                <language-selector />
             </div>
         </nav>
     </header>
 </template>
 
 <script>
+import LanguageSelector from '@/components/LanguageSelector'
+
 export default {
   data() {
     return {
       logo: require("../../static/logo.png"),
       settings: require("../../data/theme.json"),
-      selectedLanguage: this.$i18n.locale.toString(),
-      availableLocales: this.$i18n.availableLocales
     };
   },
+  components: {
+    LanguageSelector,
+  },
   props: ["pages"],
-  computed: {
-    language: {
-      get() {
-        return this.selectedLanguage;
-      },
-      set(val) {
-        this.$i18n.locale = val;
-        this.selectedLanguage = val;
 
-        if (this.$route.path === `/${val}/`) return;
-        this.$router.push({
-          path: this.$tp(this.$route.path, val, true)
-        });
-      }
-    }
-  }
 };
 </script>
