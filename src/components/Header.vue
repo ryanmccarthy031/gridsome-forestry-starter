@@ -27,7 +27,7 @@
                     <option
                         v-for="(lang, index) in availableLocales"
                         :key="`language-${index}`"
-                        :value="lang">{{ lang }}</option>
+                        :value="lang">{{ $t(lang) }}</option>
                 </select>
             </div>
         </div>
