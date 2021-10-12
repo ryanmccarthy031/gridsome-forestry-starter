@@ -26,8 +26,5 @@ export default {
   components: {
     Hero,
   },
-  created () {
-    console.log(this.$page)
-  }
 }
 </script>

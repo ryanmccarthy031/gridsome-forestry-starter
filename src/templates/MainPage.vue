@@ -40,9 +40,6 @@ export default {
   components: {
     PageContent
   },
-  created () {
-    console.log(this.$page)
-  },
   metaInfo () {
     return {
       title: this.$page.data.title
