@@ -15,7 +15,7 @@
 </template>
 
 <page-query>
-query MainPage ($locale: String) {
+query MainPage ($locale: String, $path: String!) {
   pages: allMainPage(filter: { locale: { eq: $locale } }, sort: [{ by: "priority", order: DESC }]) {
     edges {
         node {
@@ -25,6 +25,10 @@ query MainPage ($locale: String) {
             locale
         }
     }
+  }
+  data: mainPage (path: $path) {
+    title
+    content
   }
 }
 </page-query>
