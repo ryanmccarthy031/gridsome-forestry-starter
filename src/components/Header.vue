@@ -37,7 +37,7 @@
                         </option>
                     </select>
                 </div>
-                <div class="flex-none lg:hidden grid">
+                <div class="flex-1 lg:hidden grid">
                     <label for="my-drawer-3" class="btn btn-square btn-ghost justify-self-end">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
