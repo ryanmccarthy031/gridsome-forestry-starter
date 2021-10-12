@@ -1,7 +1,12 @@
 <template>
     <div class="hero">
         <h1 class="hero-title" v-html="settings.hero_title" />
-        <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
+        <h2 
+          v-if="$i18n.locale.toString()==='en-US'"
+          class="hero-subtitle" v-html="settings.english_subtitle" />
+        <h2 
+          v-if="$i18n.locale.toString()==='es-ES'"
+          class="hero-subtitle" v-html="settings.subtítulo_en_español" />
     </div>
 </template>
 

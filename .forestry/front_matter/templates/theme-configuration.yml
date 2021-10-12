@@ -16,8 +16,15 @@ fields:
     schema:
       format: html
 - type: textarea
-  name: hero_subtitle
-  label: Hero subtitle
+  name: english_subtitle
+  label: English Subtitle
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: textarea
+  name: subtítulo_en_español
+  label: Subtítulo en Español
   config:
     wysiwyg: true
     schema:
