@@ -15,7 +15,7 @@
 </template>
 
 <page-query>
-query MainPage ($path: String!, $locale: String) {
+query MainPage ($locale: String, $path: String!) {
   data: mainPage (path: $path) {
     title
     content
