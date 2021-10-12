@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div>
-            <div>
+        <nav class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+            <div class="flex-none">
                 <g-link :to="$tp('/')" class="home-link">
                     <img 
                         src="../../static/logo.png"
@@ -10,26 +10,35 @@
                     />
                 </g-link>
             </div>
-            <nav>
+            <div class="invisible lg:visible flex-1 px-2 mx-2">
                 <g-link
                     v-for="(page, index) in pages" 
                     :key="`page-${index}`"
                     :to="$tp(page.node.path)">
-                    {{ page.node.title }}
+                    <span class="text-lg font-bold">
+                        {{ page.node.title }}
+                    </span>
                 </g-link>
-            </nav>
-            <div>
-                <select
-                    v-model="language"
-                    name="language" 
-                    id="language">
-                    <option
-                        v-for="(lang, index) in availableLocales"
-                        :key="`language-${index}`"
-                        :value="lang">{{ $t(lang) }}</option>
-                </select>
+                <div>
+                    <select
+                        v-model="language"
+                        name="language" 
+                        id="language">
+                        <option
+                            v-for="(lang, index) in availableLocales"
+                            :key="`language-${index}`"
+                            :value="lang">{{ $t(lang) }}</option>
+                    </select>
+                </div>
             </div>
-        </div>
+            <div class="flex-none">
+                <button class="btn btn-square btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">           
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>               
+                </svg>
+                </button>
+            </div>
+        </nav>
     </header>
 </template>
 
