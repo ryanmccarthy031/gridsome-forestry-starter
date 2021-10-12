@@ -10,9 +10,10 @@
                             :alt="settings.site_name" />
                     </g-link>
                 </div>
-                <nav class="flex-none hidden lg:block">
+                <nav class="flex-1 hidden lg:block">
                     <ul class="menu horizontal">
                         <li
+                            class="flex-1 px-2 mx-2"
                             v-for="(page, index) in pages"
                             :key="`page-${index}`">
                             <g-link
@@ -23,7 +24,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="flex-1 px-2 mx-2">
+                <div class="flex-1 px-2 mx-2 lg:hidden">
                     <select 
                         class="select select-bordered w-full max-w-xs"
                         v-model="language">
