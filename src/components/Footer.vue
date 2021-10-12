@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="container">
-            <span v-html="settings.footer" />
+            <a :href="$t('copyrightLink')">{{ $t("copyright") }}</a>
         </div>
     </footer>
 </template>
