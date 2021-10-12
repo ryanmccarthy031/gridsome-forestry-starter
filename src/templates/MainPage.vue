@@ -15,10 +15,20 @@
 </template>
 
 <page-query>
-query MainPage ($path: String!) {
+query MainPage ($path: String!, $locale: String) {
   data: mainPage (path: $path) {
     title
     content
+  }
+  pages: allMainPage(filter: { locale: { eq: $locale } }) {
+    edges {
+        node {
+            id
+            path
+            title
+            locale
+        }
+    }
   }
 }
 </page-query>
@@ -29,6 +39,10 @@ import PageContent from "@/components/PageContent"
 export default {
   components: {
     PageContent
+  },
+  created () {
+    console.log(this.$i18n.locale)
+    console.log(this.$page)
   },
   metaInfo () {
     return {
