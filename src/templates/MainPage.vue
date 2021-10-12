@@ -16,10 +16,6 @@
 
 <page-query>
 query MainPage ($locale: String, $path: String!) {
-  data: mainPage (path: $path) {
-    title
-    content
-  }
   pages: allMainPage(filter: { locale: { eq: $locale } }, sort: [{ by: "priority", order: DESC }]) {
     edges {
         node {
@@ -29,6 +25,10 @@ query MainPage ($locale: String, $path: String!) {
             locale
         }
     }
+  }
+  data: mainPage (path: $path) {
+    title
+    content
   }
 }
 </page-query>
