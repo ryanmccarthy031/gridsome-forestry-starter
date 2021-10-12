@@ -3,7 +3,7 @@
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle"> 
         <div class="flex flex-col drawer-content">
             <div class="w-full navbar bg-base-300">
-                <div class="w-40 flex-none">
+                <div class="w-20 lg:w-40 flex-none">
                     <g-link :to="$tp('/')">
                         <img
                             src="../../static/logo.png"
@@ -37,8 +37,8 @@
                         </option>
                     </select>
                 </div>
-                <div class="flex-none lg:hidden justify-self-end">
-                    <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                <div class="flex-none lg:hidden grid">
+                    <label for="my-drawer-3" class="btn btn-square btn-ghost justify-self-end">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
