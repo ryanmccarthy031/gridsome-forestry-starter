@@ -71,7 +71,7 @@
                     </li>
                 </ul>
                 <select 
-                    class="select select-bordered w-full max-w-xs"
+                    class="select select-bordered w-full min-w-min max-w-xs"
                     v-model="language">
                     <option disabled="disabled" selected="selected">Choose a language</option> 
                     <option
