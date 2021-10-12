@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+        <nav class="navbar mb-2 shadow-lg bg-neutral text-neutral-content drawer">
             <div class="flex-none">
                 <g-link :to="$tp('/')" class="home-link">
                     <img 
@@ -20,7 +20,7 @@
                         {{ page.node.title }}
                     </span>
                 </g-link>
-                <div>
+                <div class="flex-grow">
                     <select
                         v-model="language"
                         name="language" 
@@ -32,12 +32,30 @@
                     </select>
                 </div>
             </div>
-            <div class="flex-none">
-                <button class="btn btn-square btn-ghost">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">           
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>               
-                </svg>
-                </button>
+            <div class="drawer-content visible lg:invisible">
+                <input id="nav-drawer" type="checkbox" class="drawer-toggle"> 
+                <label for="nav-drawer" class="btn btn-square btn-ghost drawer-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">           
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>               
+                    </svg>
+                </label>
+            </div>
+
+            <div class="drawer-side">
+                <label for="nav-drawer" class="drawer-overlay"></label> 
+                <nav>
+                    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+                        <li v-for="(page, index) in pages" 
+                            :key="`page-${index}`">
+                            <g-link
+                                :to="$tp(page.node.path)">
+                                <span class="text-lg font-bold">
+                                    {{ page.node.title }}
+                                </span>
+                        </g-link>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </nav>
     </header>
