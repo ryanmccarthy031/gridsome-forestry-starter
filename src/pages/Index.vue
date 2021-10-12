@@ -7,7 +7,7 @@
 </template>
 <page-query>
 query MainPage ($locale: String) {
-  pages: allMainPage(filter: { locale: { eq: $locale } }, sort: [{ by: "priority", order: DESC }) {
+  pages: allMainPage(filter: { locale: { eq: $locale } }, sort: [{ by: "priority", order: DESC }]) {
     edges {
         node {
             id
