@@ -34,20 +34,6 @@
     </header>
 </template>
 
-<static-query>
-query {
-    pages: allMainPage {
-        edges {
-            node {
-                id
-                path
-                title
-                locale
-            }
-        }
-    }
-}
-</static-query>
 
 <script>
 export default {
@@ -59,10 +45,8 @@ export default {
             availableLocales: this.$i18n.availableLocales,
         }
     },
+    props: ['pages'],
     computed: {
-        pages () {
-            return this.$static.pages.edges.filter(page=>page.node.locale===this.$i18n.locale)
-        },
         language: {
             get () {
                 return this.selectedLanguage

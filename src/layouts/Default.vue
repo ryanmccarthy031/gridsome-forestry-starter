@@ -1,6 +1,6 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
-    <Header />
+    <Header :pages="pages" />
     <slot/>
     <Footer />
   </div>
@@ -15,6 +15,7 @@ export default {
     Header,
     Footer
   },
+  props: ['pages'],
 }
 </script>
 

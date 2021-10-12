@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :pages="$page.pages.edges">
     <div class="journal">
       <div class="container journal-container">
 

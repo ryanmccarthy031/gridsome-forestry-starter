@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :pages="$page.pages.edges">
     <div class="container">
       <Hero />
     </div>
@@ -14,7 +14,7 @@ query MainPage ($locale: String) {
             path
             title
             locale
-        }
+        }p
     }
   }
 }
