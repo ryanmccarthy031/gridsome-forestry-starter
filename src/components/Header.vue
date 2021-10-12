@@ -24,7 +24,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="flex-1 px-2 mx-2 lg:hidden">
+                <div class="flex-1 px-2 mx-2 hidden lg:block">
                     <select 
                         class="select select-bordered w-full max-w-xs"
                         v-model="language">
