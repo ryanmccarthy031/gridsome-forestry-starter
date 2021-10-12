@@ -1,10 +1,9 @@
 ---
 date: 2019-06-04
 title: Recursos
-excerpt: Información adicional sobre Food Not Bombs y otros grupos que pueden resultar
-  útiles.
+excerpt: Información adicional sobre Food Not Bombs y otros grupos que pueden resultar útiles.
 locale: es-ES
-
+priority: 6
 ---
 ## Recursos FNB
 

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="journal text-gray-100">
+    <div class="journal">
       <div class="container journal-container">
 
         <div class="journal-header">
@@ -41,7 +41,6 @@ export default {
     PageContent
   },
   created () {
-    console.log(this.$i18n.locale)
     console.log(this.$page)
   },
   metaInfo () {

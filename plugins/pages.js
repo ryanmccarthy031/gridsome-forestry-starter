@@ -1,7 +1,7 @@
 module.exports = {
     use: "@gridsome/source-filesystem",
     options: {
-        path: "content/pages/**/*.md",
+        path: "content/**/*.md",
         typeName: "MainPage",
         resolveAbsolutePaths: true,
         component: './src/templates/Page.vue',

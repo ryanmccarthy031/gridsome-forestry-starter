@@ -1,20 +1,7 @@
 ---
-label: Pages
+label: English Pages
 hide_body: false
 fields:
-- type: select
-  name: locale
-  label: Locale
-  description: Select a locale for this page
-  hidden: false
-  default: en-US
-  config:
-    source:
-      type: custom
-    options:
-    - en-US
-    - es-ES
-    required: true
 - type: text
   name: title
   label: Title
@@ -26,6 +13,20 @@ fields:
   description: Short snippet that will show outside of the actual post
   config:
     required: false
+- name: priority
+  type: number
+  label: Menu Order
+  description: Set the page's sort order
+  config:
+    required: true
+- name: locale
+  type: text
+  label: Locale
+  description: Set the page's locale
+  hidden: true
+  default: en-US
+  config:
+    required: true
 - type: datetime
   name: date
   label: Date

@@ -1,10 +1,9 @@
 ---
 date: 2019-06-04
 title: Resources
-excerpt: Additional information about Food Not Bombs and other groups that might be
-  helpful.
+excerpt: Additional information about Food Not Bombs and other groups that might be helpful.
 locale: en-US
-
+priority: 6
 ---
 ## FNB Resources
 

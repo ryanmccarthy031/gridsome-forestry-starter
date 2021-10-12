@@ -1,10 +1,9 @@
 ---
 date: 2019-06-07
 title: Unéte a Nosotros
-excerpt: Recopilamos artículos donados de miembros de la comunidad, comestibles locales
-  y puntos de venta de alimentos y los distribuimos. Puedes ayudar.
+excerpt: Recopilamos artículos donados de miembros de la comunidad, comestibles locales y puntos de venta de alimentos y los distribuimos. Puedes ayudar.
 locale: es-ES
-
+priority: 3
 ---
 ¿Ya estás familiarizado con Food Not Bombs? Envía un correo electrónico a fnbraleigh@gmail.com y lo añadiremos a la holgura. Llevamos a cabo reuniones de orientación para nuevos voluntarios regularmente.
 

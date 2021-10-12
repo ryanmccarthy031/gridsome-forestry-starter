@@ -5,12 +5,19 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/pages
-  label: Pages
+  path: content/english-pages
+  label: English Pages
   create: documents
   match: "**/*.md"
   templates:
-  - page
+  - english-page
+- type: directory
+  path: content/página-en-español
+  label: Página en Español
+  create: documents
+  match: "**/*.md"
+  templates:
+  - página-en-español
 - type: document
   path: data/theme.json
   label: Theme config

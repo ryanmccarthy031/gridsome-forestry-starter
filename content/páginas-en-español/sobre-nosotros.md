@@ -1,10 +1,9 @@
 ---
 date: 2019-05-17
 title: Sobre Nosotros
-excerpt: Nuestro capítulo de Raleigh Food Not Bombs (FNB) es un colectivo autónomo
-  que proporciona alimentos a cualquier lugar de la comunidad que se necesite.
+excerpt: Nuestro capítulo de Raleigh Food Not Bombs (FNB) es un colectivo autónomo que proporciona alimentos a cualquier lugar de la comunidad que se necesite.
 locale: es-ES
-
+priority: 1
 ---
 Recogemos artículos donados por miembros de la comunidad, tiendas locales y establecimientos de comida.  
   

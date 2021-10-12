@@ -3,7 +3,7 @@ date: 2019-05-18
 title: Donate
 excerpt: We've got several ways you can contribute.
 locale: en-US
-
+priority: 2
 ---
 * [Funds for General Use](https://opencollective.com/fnb_raleigh)
 * [Food Not Lawns Funds](https://opencollective.com/fnb_raleigh/projects/food-not-lawns)
