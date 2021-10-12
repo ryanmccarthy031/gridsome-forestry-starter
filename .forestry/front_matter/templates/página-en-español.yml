@@ -37,3 +37,5 @@ fields:
     time_format: ''
     export_format: YYYY-MM-DD
   default: now
+pages:
+- content/páginas-en-español/test-page.md
