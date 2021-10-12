@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+        <nav class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
             <div class="flex-none">
                 <g-link :to="$tp('/')" class="home-link">
                     <img 
@@ -14,7 +14,8 @@
                 <g-link
                     v-for="(page, index) in pages" 
                     :key="`page-${index}`"
-                    :to="$tp(page.node.path)">
+                    :to="$tp(page.node.path)"
+                    class="flex-grow">
                     <span class="text-lg font-bold">
                         {{ page.node.title }}
                     </span>
