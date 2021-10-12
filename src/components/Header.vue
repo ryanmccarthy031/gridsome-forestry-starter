@@ -57,28 +57,30 @@
         </div>
         <nav class="drawer-side">
             <label for="my-drawer-3" class="drawer-overlay"></label>
-            <ul class="p-4 overflow-y-auto menu w-80 bg-base-100">
-                <li
-                    v-for="(page, index) in pages"
-                    :key="`page-${index}`">
-                    <g-link
-                        :to="$tp(page.node.path)"
-                        >
-                        {{ page.node.title }}
-                    </g-link>
-                </li>
-            </ul>
-            <select 
-                class="select select-bordered w-full max-w-xs"
-                v-model="language">
-                <option disabled="disabled" selected="selected">Choose a language</option> 
-                <option
-                    v-for="(lang, index) in availableLocales"
-                    :key="`language-${index}`"
-                    :value="lang">
-                    {{ $t(lang) }}
-                </option>
-            </select>
+            <div class="p-4 overflow-y-auto menu w-80 bg-base-100">
+                <ul>
+                    <li
+                        v-for="(page, index) in pages"
+                        :key="`page-${index}`">
+                        <g-link
+                            :to="$tp(page.node.path)"
+                            >
+                            {{ page.node.title }}
+                        </g-link>
+                    </li>
+                </ul>
+                <select 
+                    class="select select-bordered w-full max-w-xs"
+                    v-model="language">
+                    <option disabled="disabled" selected="selected">Choose a language</option> 
+                    <option
+                        v-for="(lang, index) in availableLocales"
+                        :key="`language-${index}`"
+                        :value="lang">
+                        {{ $t(lang) }}
+                    </option>
+                </select>
+            </div>
         </nav>
     </header>
 </template>
