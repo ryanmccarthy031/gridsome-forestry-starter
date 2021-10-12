@@ -14,7 +14,7 @@ query MainPage ($locale: String) {
             path
             title
             locale
-        }p
+        }
     }
   }
 }
