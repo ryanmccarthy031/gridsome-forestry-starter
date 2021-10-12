@@ -5,20 +5,7 @@
     <Footer />
   </div>
 </template>
-<page-query>
-query {
-    pages: allMainPage {
-        edges {
-            node {
-                id
-                path
-                title
-                locale
-            }
-        }
-    }
-}
-</page-query>
+
 <script>
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
@@ -28,9 +15,6 @@ export default {
     Header,
     Footer
   },
-  created () {
-    console.log("XXXXX", this.$pages)
-  }
 }
 </script>
 
