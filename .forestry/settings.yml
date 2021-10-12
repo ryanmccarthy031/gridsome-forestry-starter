@@ -12,8 +12,8 @@ sections:
   templates:
   - english-page
 - type: directory
-  path: content/página-en-español
-  label: Página en Español
+  path: content/páginas-en-español
+  label: Páginas en Español
   create: documents
   match: "**/*.md"
   templates:
