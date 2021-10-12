@@ -1,7 +1,6 @@
 <template>
     <div>
         <header class="shadow bg-base-200 drawer">
-            <input id="my-drawer-3" type="checkbox" class="drawer-toggle"> 
             <div class="flex flex-col drawer-content">
                 <div class="w-full navbar bg-base-300">
                     <div class="w-20 lg:w-40 flex-none">
@@ -58,6 +57,7 @@
                 </div>
             </div>
         </header>
+        <input id="my-drawer-3" type="checkbox" class="drawer-toggle"> 
         <nav class="drawer-side">
             <label for="my-drawer-3" class="drawer-overlay"></label>
             <div class="p-4 overflow-y-auto menu w-80 bg-base-100">
