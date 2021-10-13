@@ -21,7 +21,7 @@
                         v-for="(page, index) in pages" 
                         :key="`page-${index}`">
                         <g-link
-                            
+                            @click="$emit('toggleSidebar')"
                             :to="$tp(page.node.path)">
                             {{ page.node.title }}
                         </g-link>
