@@ -5,7 +5,7 @@
       class="transform col-span-3">
       <Sidebar :pages="pages" />
     </div>
-    <div :class="showSidebar ? 'col-span-9' : 'col-span-12'">
+    <div :class="'col-span-9'">
       <Header @toggleSidebar="showSidebar=!showSidebar" />
       <slot class="content" />
       <Footer />
