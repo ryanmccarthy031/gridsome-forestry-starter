@@ -1,13 +1,9 @@
 <template>
   <div>
-    <div
-      :class="{ '-translate-x-full' : !showSidebar }"
-      class="transform absolute">
-      <Sidebar
-        :show-sidebar="showSidebar"
-        @toggleSidebar="showSidebar=!showSidebar"
-        :pages="pages" />
-    </div>
+    <Sidebar
+      :show-sidebar="showSidebar"
+      @toggleSidebar="showSidebar=!showSidebar"
+      :pages="pages" />
     <div>
       <Header @toggleSidebar="showSidebar=!showSidebar" />
       <slot class="content" />
