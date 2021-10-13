@@ -1,9 +1,12 @@
 <template>
-    <div>
+    <div
+        :class="{ '-translate-x-full' : !showSidebar }"
+        class="transform absolute">
         <div 
             @click="$emit('toggleSidebar')"
+            :class="{ 'hidden': !showSidebar }"
             class="absolute w-screen h-screen bg-black opacity-25 top-0 left-0 cursor-pointer" />
-        <div class="h-screen sticky top-0 py-4 px-6 bg-white">
+        <div class="h-screen sticky top-0 py-4 px-8 bg-white">
             <div class="w-32">
                 <g-link :to="$tp('/')">
                     <img 
@@ -35,6 +38,7 @@
 import LanguageSelector from './LanguageSelector.vue'
 export default {
     components: { LanguageSelector },
+    props=['showSidebar'],
     data() {
         return {
             logo: require("../../static/logo.png"),

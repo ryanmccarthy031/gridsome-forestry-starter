@@ -3,7 +3,10 @@
     <div
       :class="{ '-translate-x-full' : !showSidebar }"
       class="transform absolute">
-      <Sidebar :pages="pages" />
+      <Sidebar
+        :show-sidebar="showSidebar"
+        @toggleSidebar="showSidebar=!showSidebar"
+        :pages="pages" />
     </div>
     <div>
       <Header @toggleSidebar="showSidebar=!showSidebar" />
