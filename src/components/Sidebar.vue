@@ -1,30 +1,28 @@
 <template>
-    <header>
+    <div class="h-screen sticky top-0">
         <div>
-            <div>
-                <g-link :to="$tp('/')">
-                    <img 
-                        src="../../static/logo.png"
-                        :alt="settings.site_name" 
-                    />
-                </g-link>
-            </div>
-            <nav>
-                <ul>
-                    <li
-                        v-for="(page, index) in pages" 
-                        :key="`page-${index}`">
-                        <g-link
-                            
-                            :to="$tp(page.node.path)">
-                            {{ page.node.title }}
-                        </g-link>
-                    </li>
-                </ul>
-            </nav>
-            <language-selector />
+            <g-link :to="$tp('/')">
+                <img 
+                    src="../../static/logo.png"
+                    :alt="settings.site_name" 
+                />
+            </g-link>
         </div>
-    </header>
+        <nav>
+            <ul>
+                <li
+                    v-for="(page, index) in pages" 
+                    :key="`page-${index}`">
+                    <g-link
+                        
+                        :to="$tp(page.node.path)">
+                        {{ page.node.title }}
+                    </g-link>
+                </li>
+            </ul>
+        </nav>
+        <language-selector />
+    </div>
 </template>
 
 
