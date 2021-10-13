@@ -4,7 +4,7 @@
       :showSidebar="showSidebar"
       @toggleSidebar="showSidebar=!showSidebar"
       :pages="pages" />
-    <div>
+    <div class="min-h-screen flex flex-col">
       <Header @toggleSidebar="showSidebar=!showSidebar" />
       <slot class="content" />
       <Footer />

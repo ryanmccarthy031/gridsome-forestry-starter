@@ -1,7 +1,7 @@
 <template>
     <div
         :class="{ '-translate-x-full' : !showSidebar }"
-        class="transform fixed z-50">
+        class="transition-transform transform fixed z-50">
         <div 
             @click="$emit('toggleSidebar')"
             :class="{ 'hidden': !showSidebar }"
