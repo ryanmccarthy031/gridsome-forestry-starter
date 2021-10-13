@@ -22,7 +22,6 @@ module.exports = function (api) {
             id: node.id,
             locale: node.locale,
             title: node.title,
-            path: node.path,
           }
         })
       })
