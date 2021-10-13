@@ -21,7 +21,6 @@ export default {
             availableLocales: this.$i18n.availableLocales,
         }
     },
-    props: ['pages'],
     computed: {
         language: {
             get () {
