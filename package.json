@@ -11,8 +11,7 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.23",
-    "gridsome-plugin-i18n": "^1.6.0",
-    "tailwind-hamburgers": "^1.1.1"
+    "gridsome-plugin-i18n": "^1.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^9",
