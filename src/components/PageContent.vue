@@ -1,8 +1,10 @@
 <template>
-    <div 
-        class="w-10/12"
-        v-html="content"
-    />
+    <div class="flex">
+        <div 
+            class="prose"
+            v-html="content"
+        />
+    </div>
 </template>
 
 <script>
