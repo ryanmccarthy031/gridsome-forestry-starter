@@ -1,5 +1,8 @@
 <template>
     <div>
+        <div 
+            @click="$emit('toggleSidebar')"
+            class="absolute w-screen h-screen bg-black opacity-25 top-0 left-0 cursor-pointer" />
         <div class="h-screen sticky top-0 py-4 px-6 bg-white">
             <div class="w-32">
                 <g-link :to="$tp('/')">
@@ -24,9 +27,6 @@
             </nav>
             <language-selector />
         </div>
-        <div 
-            @click="$emit('toggleSidebar')"
-            class="absolute w-full h-full bg-black opacity-25 top-0 left-0 cursor-pointer" />
     </div>
 </template>
 
