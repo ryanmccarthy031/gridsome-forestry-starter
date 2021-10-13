@@ -1,5 +1,5 @@
 <template>
-  <Layout :pages="($page.pages || {}).edges">
+  <Layout :pages="pages">
     <div>
       <div>
 
@@ -43,11 +43,7 @@ export default {
   computed: {
     pages () {
       return this.$page.pages.edges.filter(page=>{
-        console.log(this.$i18n.locale.toString())
-        console.log(this.$context)
-        console.log(page)
-        console.log(page.locale)
-        page.locale===this.$i18n.locale.toString()
+        page.node.locale===this.$i18n.locale.toString()
       })
     }
   },
