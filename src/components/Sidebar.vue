@@ -38,7 +38,7 @@
 import LanguageSelector from './LanguageSelector.vue'
 export default {
     components: { LanguageSelector },
-    props=['showSidebar'],
+    props: ['showSidebar'],
     data() {
         return {
             logo: require("../../static/logo.png"),
