@@ -1,8 +1,10 @@
 <template>
   <div>
-    <Header :pages="pages" />
+    <Header />
     <slot/>
     <Footer />
+    <Sidebar :pages="pages" />
+
   </div>
 </template>
 
