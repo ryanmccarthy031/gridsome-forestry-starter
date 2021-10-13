@@ -2,10 +2,10 @@
   <div class="grid grid-cols-12">
     <div
       :class="{ '-translate-x-full' : !showSidebar }"
-      class="col-span-3">
+      class="transform col-span-3">
       <Sidebar :pages="pages" />
     </div>
-    <div class="col-span-9">
+    <div :class="showSidebar ? 'col-span-9' : 'col-span-12'">
       <Header @toggleSidebar="showSidebar=!showSidebar" />
       <slot class="content" />
       <Footer />
