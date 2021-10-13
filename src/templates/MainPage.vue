@@ -15,8 +15,8 @@
 </template>
 
 <page-query>
-query MainPage ($locale: String, $path: String!) {
-  pages: allMainPage(filter: { locale: { eq: $locale } }, sort: [{ by: "priority", order: DESC }]) {
+query MainPage ($path: String!) {
+  pages: allMainPage(sort: [{ by: "priority", order: DESC }]) {
     edges {
         node {
             id
@@ -41,8 +41,8 @@ export default {
     PageContent
   },
   computed: {
-    page () {
-      return this.$page.pages
+    pages () {
+      return this.$page.pages.edges.filter(page=>page.locale===this.$i18n.locale.toString())
     }
   },
   metaInfo () {
