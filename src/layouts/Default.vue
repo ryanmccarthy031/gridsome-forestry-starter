@@ -1,9 +1,9 @@
 <template>
-  <div class="flex">
-    <div>
+  <div class="grid grid-cols-12">
+    <div class="col-span-3">
       <Sidebar :pages="pages" />
     </div>
-    <div>
+    <div class="col-span-9">
       <Header />
       <slot class="content" />
       <Footer />
@@ -29,29 +29,3 @@ export default {
 }
 
 </script>
-
-<style scoped>
-.content {
-  max-width:650px;
-  margin:40px auto;
-  padding:0 10px;
-  font:18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color:#444
-}
-h1,h2,h3{
-  line-height:1.2
-}
-@media (prefers-color-scheme: dark){
-  body{
-    color:#ccc;
-    background:#222;
-  }
-  a:link{
-    color:#5bf;
-  }
-  a:visited{
-    color:#ccf;
-  }
-}
-
-</style>

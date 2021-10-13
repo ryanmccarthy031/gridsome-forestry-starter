@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div>
-            <div>
+        <div class="flex h-40">
+            <div class="w-32">
                 <g-link :to="$tp('/')">
                     <img 
                         src="../../static/logo.png"
@@ -10,7 +10,7 @@
                 </g-link>
             </div>
             <div>
-                Sidebar Toggle
+                Sidebar Toggle Should go here
             </div>
         </div>
     </header>
