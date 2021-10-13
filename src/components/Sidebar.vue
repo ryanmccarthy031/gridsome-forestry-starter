@@ -1,6 +1,6 @@
 <template>
     <div class="h-screen sticky top-0">
-        <div>
+        <div class="w-32">
             <g-link :to="$tp('/')">
                 <img 
                     src="../../static/logo.png"
