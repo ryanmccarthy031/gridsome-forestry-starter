@@ -1,7 +1,7 @@
 <template>
   <div>
     <Sidebar
-      :show-sidebar="showSidebar"
+      :showSidebar="showSidebar"
       @toggleSidebar="showSidebar=!showSidebar"
       :pages="pages" />
     <div>
