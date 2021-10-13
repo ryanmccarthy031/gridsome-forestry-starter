@@ -1,11 +1,11 @@
 <template>
-  <div class="grid grid-cols-12">
+  <div>
     <div
       :class="{ '-translate-x-full' : !showSidebar }"
-      class="transform col-span-3">
+      class="transform absolute p-8">
       <Sidebar :pages="pages" />
     </div>
-    <div :class="'col-span-9'">
+    <div>
       <Header @toggleSidebar="showSidebar=!showSidebar" />
       <slot class="content" />
       <Footer />
