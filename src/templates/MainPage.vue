@@ -1,7 +1,7 @@
 <template>
   <Layout :pages="pages">
-    <div>
-      <div>
+    <div class="grid grid-cols-12">
+      <div class="prose md:col-span-8 md:col-start-3 px-8 py-2">
         <div>
           <h1>{{ $page.data.title }}</h1>
         </div>

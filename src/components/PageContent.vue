@@ -1,7 +1,6 @@
 <template>
-    <div class="flex">
+    <div>
         <div 
-            class="prose"
             v-html="content"
         />
     </div>
