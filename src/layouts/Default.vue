@@ -1,10 +1,13 @@
 <template>
   <div class="flex">
-    <Header />
-    <slot class="content" />
-    <Footer />
-    <Sidebar :pages="pages" />
-
+    <div>
+      <Sidebar :pages="pages" />
+    </div>
+    <div>
+      <Header />
+      <slot class="content" />
+      <Footer />
+    </div>
   </div>
 </template>
 
