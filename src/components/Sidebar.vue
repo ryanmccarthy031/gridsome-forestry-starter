@@ -1,27 +1,32 @@
 <template>
-    <div class="h-screen sticky top-0">
-        <div class="w-32">
-            <g-link :to="$tp('/')">
-                <img 
-                    src="../../static/logo.png"
-                    :alt="settings.site_name" 
-                />
-            </g-link>
+    <div>
+        <div class="h-screen sticky top-0 py-4 px-6 bg-white">
+            <div class="w-32">
+                <g-link :to="$tp('/')">
+                    <img 
+                        src="../../static/logo.png"
+                        :alt="settings.site_name" 
+                    />
+                </g-link>
+            </div>
+            <nav>
+                <ul>
+                    <li
+                        v-for="(page, index) in pages" 
+                        :key="`page-${index}`">
+                        <g-link
+                            
+                            :to="$tp(page.node.path)">
+                            {{ page.node.title }}
+                        </g-link>
+                    </li>
+                </ul>
+            </nav>
+            <language-selector />
         </div>
-        <nav>
-            <ul>
-                <li
-                    v-for="(page, index) in pages" 
-                    :key="`page-${index}`">
-                    <g-link
-                        
-                        :to="$tp(page.node.path)">
-                        {{ page.node.title }}
-                    </g-link>
-                </li>
-            </ul>
-        </nav>
-        <language-selector />
+        <div 
+            @click="$emit('toggleSidebar')"
+            class="absolute w-full h-full bg-black opacity-25 top-0 left-0 cursor-pointer" />
     </div>
 </template>
 

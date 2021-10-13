@@ -2,7 +2,7 @@
   <div>
     <div
       :class="{ '-translate-x-full' : !showSidebar }"
-      class="transform absolute p-8">
+      class="transform absolute">
       <Sidebar :pages="pages" />
     </div>
     <div>
