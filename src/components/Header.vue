@@ -9,30 +9,21 @@
                     />
                 </g-link>
             </div>
-            <nav>
-                <g-link
-                    v-for="(page, index) in pages" 
-                    :key="`page-${index}`"
-                    :to="$tp(page.node.path)">
-                    {{ page.node.title }}
-                </g-link>
-            </nav>
-            <language-selector />
+            <div>
+                Sidebar Toggle
+            </div>
         </div>
     </header>
 </template>
 
 
 <script>
-import LanguageSelector from './LanguageSelector.vue'
 export default {
-    components: { LanguageSelector },
     data() {
         return {
             logo: require("../../static/logo.png"),
             settings: require("../../data/theme.json"),
         }
     },
-    props: ['pages'],
 }
 </script>
