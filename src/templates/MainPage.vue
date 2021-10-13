@@ -1,5 +1,5 @@
 <template>
-  <Layout :pages="$(page.pages || {}).edges">
+  <Layout :pages="($page.pages || {}).edges">
     <div>
       <div>
 
