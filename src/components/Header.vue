@@ -9,11 +9,13 @@
                     />
                 </g-link>
             </div>
-            <div class="flex items-center">
+            <div 
+                @click="$emit('toggleSidebar')"
+                class="flex flex-1 justify-end items-center">
                 <div class="sr-only">Open main menu</div>
-                <button class="outline-none mobile-menu-button">
+                <button class="outline-none menu-button px-4 py-4">
                     <svg
-                        class="w-6 h-6 text-gray-500"
+                        class="w-10 h-10 text-gray-600"
                         x-show="!showMenu"
                         fill="none"
                         stroke-linecap="round"
