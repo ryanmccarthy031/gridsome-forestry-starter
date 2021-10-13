@@ -9,8 +9,10 @@
                     />
                 </g-link>
             </div>
-            <div>
-                Sidebar Toggle Should go here
+            <div class="tham tham-e-squeeze tham-w-6">
+                <div class="tham-box">
+                    <div class="tham-inner" />
+                </div>
             </div>
         </div>
     </header>
