@@ -42,14 +42,7 @@ export default {
   },
   computed: {
     pages () {
-      return this.$page.pages.edges.filter(page=>{
-        console.log("XXXXXXXXXX")
-        console.log(this.$i18n.locale.toString())
-        console.log(this.$context)
-        console.log(page)
-        console.log(page.locale)
-        page.node.locale===this.$i18n.locale.toString()
-      })
+      return this.$page.pages.edges.filter(page=>page.node.locale===this.$context.locale)
     }
   },
   metaInfo () {
