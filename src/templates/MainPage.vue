@@ -40,6 +40,11 @@ export default {
   components: {
     PageContent
   },
+  computed: {
+    page () {
+      return this.$page.pages
+    }
+  },
   metaInfo () {
     return {
       title: this.$page.data.title
