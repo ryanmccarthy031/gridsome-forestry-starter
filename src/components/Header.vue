@@ -17,48 +17,22 @@
                     {{ page.node.title }}
                 </g-link>
             </nav>
-            <div>
-                <select
-                    v-model="language"
-                    name="language" 
-                    id="language">
-                    <option
-                        v-for="(lang, index) in availableLocales"
-                        :key="`language-${index}`"
-                        :value="lang">{{ $t(lang) }}</option>
-                </select>
-            </div>
+            <language-selector />
         </div>
     </header>
 </template>
 
 
 <script>
+import LanguageSelector from './LanguageSelector.vue'
 export default {
+    components: { LanguageSelector },
     data() {
         return {
             logo: require("../../static/logo.png"),
             settings: require("../../data/theme.json"),
-            selectedLanguage: this.$i18n.locale.toString(),
-            availableLocales: this.$i18n.availableLocales,
         }
     },
     props: ['pages'],
-    computed: {
-        language: {
-            get () {
-                return this.selectedLanguage
-            },
-            set (val) {
-                this.$i18n.locale = val
-                this.selectedLanguage = val
-
-                if (this.$route.path===`/${val}/`) return
-                this.$router.push({
-                    path: this.$tp(this.$route.path, val, true)
-                })
-            },
-        },
-    },
 }
 </script>
