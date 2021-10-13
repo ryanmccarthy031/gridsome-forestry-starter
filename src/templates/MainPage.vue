@@ -1,14 +1,11 @@
 <template>
-  <Layout :pages="($page.pages || {}).edges">
+  <Layout :pages="pages">
     <div>
       <div>
-
         <div>
-          <h1 />      
+          <h1>{{ $page.data.title }}</h1>
         </div>
-
         <PageContent :content="$page.data.content" />
-
       </div>
     </div>
   </Layout>
