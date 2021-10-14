@@ -9,7 +9,7 @@
                     />
                 </g-link>
             </div>
-            <div class="items-center hidden md:flex md:text-3xl">{{ settings.site_name }}</div>            
+            <div class="px-8 items-center hidden md:flex md:text-3xl">{{ settings.site_name }}</div>            
             <div 
                 @click="$emit('toggleSidebar')"
                 class="flex flex-1 justify-end items-center">
