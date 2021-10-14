@@ -7,7 +7,7 @@
             :class="{ 'hidden': !showSidebar }"
             class="absolute w-screen h-screen bg-black opacity-25 top-0 left-0 cursor-pointer" />
         <div class="h-screen sticky top-0 py-4 px-8 bg-white">
-            <div class="w-32 p-4">
+            <div class="w-32 mx-16 my-8">
                 <g-link :to="$tp('/')">
                     <img 
                         src="../../static/logo.png"
@@ -16,13 +16,14 @@
                 </g-link>
             </div>
             <nav>
-                <ul>
+                <ul class="divide-y px-8">
                     <li
                         @click="$emit('toggleSidebar')"
+                        class="mr-12 px-8 py-2"
                         v-for="(page, index) in pages" 
                         :key="`page-${index}`">
                         <g-link
-                            class="text-xl p-1"
+                            class="text-xl"
                             :to="$tp(page.node.path)">
                             {{ page.node.title }}
                         </g-link>

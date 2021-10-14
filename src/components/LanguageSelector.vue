@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="px-16 py-6">
         <select
             v-model="language"
-            class="text-xl"
+            class="text-xl w-full"
             name="language" 
             id="language">
             <option
