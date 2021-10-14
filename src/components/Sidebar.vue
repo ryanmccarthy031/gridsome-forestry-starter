@@ -7,7 +7,7 @@
             :class="{ 'hidden': !showSidebar }"
             class="absolute w-screen h-screen bg-black opacity-25 top-0 left-0 cursor-pointer" />
         <div class="h-screen sticky top-0 py-4 px-8 bg-white">
-            <div class="w-32">
+            <div class="w-32 p-4">
                 <g-link :to="$tp('/')">
                     <img 
                         src="../../static/logo.png"
@@ -22,6 +22,7 @@
                         v-for="(page, index) in pages" 
                         :key="`page-${index}`">
                         <g-link
+                            class="text-xl p-1"
                             :to="$tp(page.node.path)">
                             {{ page.node.title }}
                         </g-link>
