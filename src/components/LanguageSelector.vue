@@ -2,6 +2,7 @@
     <div>
         <select
             v-model="language"
+            class="text-xl"
             name="language" 
             id="language">
             <option
